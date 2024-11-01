@@ -1,7 +1,7 @@
 import unittest
 
-from psae.extract import ExtractPlatformSpecificDir
-from psae.capture import Call
+from psaspotter.extract import ExtractPlatformSpecificDir
+from psaspotter.capture import Call
 
 class TestCallForFunctions(unittest.TestCase):
 

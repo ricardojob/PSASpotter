@@ -1,7 +1,7 @@
 import logging
 import os.path
 from dataclasses import dataclass
-from psae.get_repo import Repo
+from psaspotter.get_repo import Repo
 
 logger = logging.getLogger(__name__)
 

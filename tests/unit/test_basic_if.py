@@ -1,7 +1,7 @@
 import unittest
 import ast
 
-from psae.capture import CheckVisitor, Usage, Call,  read_apis
+from psaspotter.capture import CheckVisitor, Usage, Call,  read_apis
 
 class TestCallIf(unittest.TestCase):
     def setUp(self):

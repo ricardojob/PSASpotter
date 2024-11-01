@@ -10,8 +10,8 @@ from typing import List
 import click
 
 # from projects import ProjectRemote
-from psae.capture import CheckVisitor, Call
-from psae.projects import ProjectRemote
+from psaspotter.capture import CheckVisitor, Call
+from psaspotter.projects import ProjectRemote
 
 logging.basicConfig(level=logging.INFO, filename='log.txt')
 logger = logging.getLogger(__name__)

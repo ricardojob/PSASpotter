@@ -1,8 +1,8 @@
 import logging
 import click
 
-from psae.extract import  ExtractPlatformSpecificDir, Report
-from psae.projects import Project
+from psaspotter.extract import  ExtractPlatformSpecificDir, Report
+from psaspotter.projects import Project
 
 logging.basicConfig(level=logging.INFO)
 # logging.basicConfig(level=logging.INFO, filename='log.txt')

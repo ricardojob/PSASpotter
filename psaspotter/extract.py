@@ -5,7 +5,7 @@ import logging
 import csv
 from typing import List
 from abc import ABC, abstractmethod
-from psae.capture import CheckVisitor, Call
+from psaspotter.capture import CheckVisitor, Call
 
 logger = logging.getLogger(__name__)
 

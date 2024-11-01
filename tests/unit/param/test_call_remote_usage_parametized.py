@@ -2,7 +2,7 @@ import unittest
 import ast
 import requests
 
-from psae.capture import CheckVisitor, Usage,  read_apis
+from psaspotter.capture import CheckVisitor, Usage,  read_apis
 
 from typing import Generator
 
