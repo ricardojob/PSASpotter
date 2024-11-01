@@ -1,0 +1,7675 @@
+{
+    "_thread.get_native_id": [
+        "Windows:True",
+        "FreeBSD:True",
+        "Linux:True",
+        "macOS:True",
+        "OpenBSD:True",
+        "NetBSD:True",
+        "AIX:True"
+    ],
+    "_thread.stack_size": [
+        "Windows:True",
+        "pthreads:True"
+    ],
+    "asynchat": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asynchat.async_chat": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asynchat.async_chat.ac_in_buffer_size": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asynchat.async_chat.ac_out_buffer_size": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asynchat.async_chat.close_when_done": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asynchat.async_chat.collect_incoming_data": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asynchat.async_chat.discard_buffers": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asynchat.async_chat.found_terminator": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asynchat.async_chat.get_terminator": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asynchat.async_chat.push": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asynchat.async_chat.push_with_producer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asynchat.async_chat.set_terminator": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.AbstractEventLoop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Handle": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Handle.cancel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Handle.cancelled": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.ProactorEventLoop": [
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.SelectorEventLoop": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Server": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Server.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Server.get_loop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Server.is_serving": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Server.serve_forever": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Server.sockets": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Server.start_serving": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Server.wait_closed": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.TimerHandle": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.TimerHandle.when": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.get_event_loop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.get_running_loop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.add_reader": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.add_signal_handler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.add_writer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.call_at": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.call_exception_handler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.call_later": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.call_soon": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.call_soon_threadsafe": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.connect_accepted_socket": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.connect_read_pipe": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.connect_write_pipe": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.create_connection": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.create_datagram_endpoint": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.create_future": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.create_server": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.create_task": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.create_unix_connection": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.create_unix_server": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.default_exception_handler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.get_debug": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.get_exception_handler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.get_task_factory": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.getaddrinfo": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.getnameinfo": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.is_closed": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.is_running": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.remove_reader": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.remove_signal_handler": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.remove_writer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.run_forever": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.run_in_executor": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.run_until_complete": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.sendfile": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.set_debug": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.set_default_executor": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.set_exception_handler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.set_task_factory": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.shutdown_asyncgens": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.shutdown_default_executor": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.sock_accept": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.sock_connect": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.sock_recv": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.sock_recv_into": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.sock_recvfrom": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.sock_recvfrom_into": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.sock_sendall": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.sock_sendfile": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.sock_sendto": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.start_tls": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.stop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.subprocess_exec": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.subprocess_shell": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.loop.time": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.new_event_loop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.set_event_loop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.CancelledError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.IncompleteReadError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.IncompleteReadError.expected": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.IncompleteReadError.partial": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.InvalidStateError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.LimitOverrunError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.LimitOverrunError.consumed": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.SendfileNotAvailableError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.TimeoutError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Future.__init__": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task.__init__": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio._enter_task": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio._leave_task": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio._register_task": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio._unregister_task": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Future": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Future.add_done_callback": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Future.cancel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Future.cancelled": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Future.done": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Future.exception": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Future.get_loop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Future.remove_done_callback": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Future.result": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Future.set_exception": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Future.set_result": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.ensure_future": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.isfuture": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.wrap_future": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.AbstractChildWatcher": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.AbstractChildWatcher.add_child_handler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.AbstractChildWatcher.attach_loop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.AbstractChildWatcher.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.AbstractChildWatcher.is_active": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.AbstractChildWatcher.remove_child_handler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.AbstractEventLoopPolicy": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.AbstractEventLoopPolicy.get_child_watcher": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.AbstractEventLoopPolicy.get_event_loop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.AbstractEventLoopPolicy.new_event_loop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.AbstractEventLoopPolicy.set_child_watcher": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.AbstractEventLoopPolicy.set_event_loop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.DefaultEventLoopPolicy": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.FastChildWatcher": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.MultiLoopChildWatcher": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.PidfdChildWatcher": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.SafeChildWatcher": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.ThreadedChildWatcher": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.WindowsProactorEventLoopPolicy": [
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.WindowsSelectorEventLoopPolicy": [
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.get_child_watcher": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.get_event_loop_policy": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.set_child_watcher": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.set_event_loop_policy": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BaseProtocol": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BaseProtocol.connection_lost": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BaseProtocol.connection_made": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BaseProtocol.pause_writing": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BaseProtocol.resume_writing": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BaseTransport": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BaseTransport.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BaseTransport.get_extra_info": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BaseTransport.get_protocol": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BaseTransport.is_closing": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BaseTransport.set_protocol": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BufferedProtocol": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BufferedProtocol.buffer_updated": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BufferedProtocol.eof_received": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BufferedProtocol.get_buffer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.DatagramProtocol": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.DatagramProtocol.datagram_received": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.DatagramProtocol.error_received": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.DatagramTransport": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.DatagramTransport.abort": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.DatagramTransport.sendto": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Protocol": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Protocol.data_received": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Protocol.eof_received": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.ReadTransport": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.ReadTransport.is_reading": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.ReadTransport.pause_reading": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.ReadTransport.resume_reading": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.SubprocessProtocol": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.SubprocessProtocol.pipe_connection_lost": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.SubprocessProtocol.pipe_data_received": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.SubprocessProtocol.process_exited": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.SubprocessTransport": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.SubprocessTransport.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.SubprocessTransport.get_pid": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.SubprocessTransport.get_pipe_transport": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.SubprocessTransport.get_returncode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.SubprocessTransport.kill": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.SubprocessTransport.send_signal": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.SubprocessTransport.terminate": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Transport": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.WriteTransport": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.WriteTransport.abort": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.WriteTransport.can_write_eof": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.WriteTransport.get_write_buffer_limits": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.WriteTransport.get_write_buffer_size": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.WriteTransport.set_write_buffer_limits": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.WriteTransport.write": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.WriteTransport.write_eof": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.WriteTransport.writelines": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.LifoQueue": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.PriorityQueue": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Queue": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Queue.empty": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Queue.full": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Queue.get": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Queue.get_nowait": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Queue.join": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Queue.maxsize": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Queue.put": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Queue.put_nowait": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Queue.qsize": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Queue.task_done": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.QueueEmpty": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.QueueFull": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Runner": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Runner.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Runner.get_loop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Runner.run": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.run": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamReader": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamReader.at_eof": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamReader.read": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamReader.readexactly": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamReader.readline": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamReader.readuntil": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamWriter": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamWriter.can_write_eof": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamWriter.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamWriter.drain": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamWriter.get_extra_info": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamWriter.is_closing": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamWriter.start_tls": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamWriter.transport": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamWriter.wait_closed": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamWriter.write": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamWriter.write_eof": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.StreamWriter.writelines": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.open_connection": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.open_unix_connection": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.start_server": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.start_unix_server": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.create_subprocess_exec": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.create_subprocess_shell": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.subprocess.DEVNULL": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.subprocess.PIPE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.subprocess.Process": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.subprocess.Process.communicate": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.subprocess.Process.kill": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.subprocess.Process.pid": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.subprocess.Process.returncode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.subprocess.Process.send_signal": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.subprocess.Process.stderr": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.subprocess.Process.stdin": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.subprocess.Process.stdout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.subprocess.Process.terminate": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.subprocess.Process.wait": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.subprocess.STDOUT": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Barrier": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Barrier.abort": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Barrier.broken": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Barrier.n_waiting": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Barrier.parties": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Barrier.reset": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Barrier.wait": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BoundedSemaphore": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.BrokenBarrierError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Condition": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Condition.acquire": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Condition.locked": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Condition.notify": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Condition.notify_all": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Condition.release": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Condition.wait": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Condition.wait_for": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Event": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Event.clear": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Event.is_set": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Event.set": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Event.wait": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Lock": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Lock.acquire": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Lock.locked": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Lock.release": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Semaphore": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Semaphore.acquire": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Semaphore.locked": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Semaphore.release": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task.add_done_callback": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task.cancel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task.cancelled": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task.cancelling": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task.done": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task.exception": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task.get_coro": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task.get_name": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task.get_stack": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task.print_stack": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task.remove_done_callback": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task.result": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task.set_name": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Task.uncancel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.TaskGroup": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.TaskGroup.create_task": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Timeout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Timeout.expired": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Timeout.reschedule": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.Timeout.when": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.all_tasks": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.as_completed": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.create_task": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.current_task": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.gather": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.iscoroutine": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.run_coroutine_threadsafe": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.shield": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.sleep": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.timeout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.timeout_at": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.to_thread": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.wait": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio.wait_for": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncio": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.accept": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.bind": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.connect": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.create_socket": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.handle_accept": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.handle_accepted": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.handle_close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.handle_connect": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.handle_error": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.handle_expt": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.handle_read": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.handle_write": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.listen": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.readable": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.recv": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.send": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher.writable": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.dispatcher_with_send": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.file_dispatcher": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.file_wrapper": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "asyncore.loop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "cgi": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "cgi.FieldStorage.getfirst": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "cgi.FieldStorage.getlist": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "cgi.parse": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "cgi.parse_header": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "cgi.parse_multipart": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "cgi.print_directory": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "cgi.print_environ": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "cgi.print_environ_usage": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "cgi.print_form": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "cgi.test": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "compileall": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "compileall.compile_dir": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "compileall.compile_file": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "compileall.compile_path": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.BrokenExecutor": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.CancelledError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.Executor": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.Executor.map": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.Executor.shutdown": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.Executor.submit": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.Future": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.Future.add_done_callback": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.Future.cancel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.Future.cancelled": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.Future.done": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.Future.exception": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.Future.result": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.Future.running": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.Future.set_exception": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.Future.set_result": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.Future.set_running_or_notify_cancel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.InvalidStateError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.ProcessPoolExecutor": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.ThreadPoolExecutor": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.TimeoutError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.as_completed": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.process.BrokenProcessPool": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.thread.BrokenThreadPool": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "concurrent.futures.wait": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "crypt.METHOD_BLOWFISH": [
+        "Unix:True",
+        "VxWorks:False",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "crypt.METHOD_CRYPT": [
+        "Unix:True",
+        "VxWorks:False",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "crypt.METHOD_MD5": [
+        "Unix:True",
+        "VxWorks:False",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "crypt.METHOD_SHA256": [
+        "Unix:True",
+        "VxWorks:False",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "crypt.METHOD_SHA512": [
+        "Unix:True",
+        "VxWorks:False",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "crypt.crypt": [
+        "Unix:True",
+        "VxWorks:False",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "crypt.methods": [
+        "Unix:True",
+        "VxWorks:False",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "crypt.mksalt": [
+        "Unix:True",
+        "VxWorks:False",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "crypt": [
+        "Unix:True",
+        "VxWorks:False",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "encodings.mbcs": [
+        "Windows:True"
+    ],
+    "ensurepip": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ensurepip.bootstrap": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ensurepip.version": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "errno.ENOTCAPABLE": [
+        "WASI:True",
+        "FreeBSD:True"
+    ],
+    "fcntl": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "fcntl.fcntl": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "fcntl.flock": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "fcntl.ioctl": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "fcntl.lockf": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.abort": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.connect": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.cwd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.delete": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.dir": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.getwelcome": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.login": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.mkd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.mlsd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.nlst": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.ntransfercmd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.pwd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.quit": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.rename": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.retrbinary": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.retrlines": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.rmd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.sendcmd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.set_debuglevel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.set_pasv": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.size": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.storbinary": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.storlines": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.transfercmd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP.voidcmd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP_TLS": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP_TLS.auth": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP_TLS.ccc": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP_TLS.prot_c": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP_TLS.prot_p": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.FTP_TLS.ssl_version": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.all_errors": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.error_perm": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.error_proto": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.error_reply": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ftplib.error_temp": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "getpass": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "getpass.GetPassWarning": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "getpass.getpass": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "getpass.getuser": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "grp": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "grp.getgrall": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "grp.getgrgid": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "grp.getgrnam": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.BadStatusLine": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.CannotSendHeader": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.CannotSendRequest": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPConnection": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPConnection.blocksize": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPConnection.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPConnection.connect": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPConnection.endheaders": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPConnection.getresponse": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPConnection.putheader": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPConnection.putrequest": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPConnection.request": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPConnection.send": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPConnection.set_debuglevel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPConnection.set_tunnel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPException": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.closed": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.debuglevel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.fileno": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.getcode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.getheader": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.getheaders": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.geturl": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.headers": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.info": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.msg": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.read": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.readinto": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.reason": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.status": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.url": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPResponse.version": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPSConnection": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTPS_PORT": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.HTTP_PORT": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.ImproperConnectionState": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.IncompleteRead": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.InvalidURL": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.LineTooLong": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.NotConnected": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.RemoteDisconnected": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.ResponseNotReady": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.UnimplementedFileMode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.UnknownProtocol": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.UnknownTransferEncoding": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.parse_headers": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.client.responses": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.MessageClass": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.address_string": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.client_address": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.close_connection": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.command": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.date_time_string": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.end_headers": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.error_content_type": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.error_message_format": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.flush_headers": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.handle": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.handle_expect_100": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.handle_one_request": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.headers": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.log_date_time_string": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.log_error": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.log_message": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.log_request": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.path": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.protocol_version": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.request_version": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.requestline": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.responses": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.rfile": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.send_error": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.send_header": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.send_response": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.send_response_only": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.server": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.server_version": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.sys_version": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.version_string": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.BaseHTTPRequestHandler.wfile": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.CGIHTTPRequestHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.CGIHTTPRequestHandler.cgi_directories": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.CGIHTTPRequestHandler.do_POST": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.HTTPServer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.SimpleHTTPRequestHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.SimpleHTTPRequestHandler.do_GET": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.SimpleHTTPRequestHandler.do_HEAD": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.SimpleHTTPRequestHandler.extensions_map": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.SimpleHTTPRequestHandler.server_version": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "http.server.ThreadingHTTPServer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.PROTOCOL_VERSION": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.abort": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.append": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.authenticate": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.check": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.copy": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.create": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.debug": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.delete": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.deleteacl": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.enable": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.error": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.expunge": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.fetch": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.getacl": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.getannotation": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.getquota": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.getquotaroot": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.list": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.login": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.login_cram_md5": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.logout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.lsub": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.myrights": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.namespace": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.noop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.open": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.partial": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.proxyauth": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.read": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.readline": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.readonly": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.recent": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.rename": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.response": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.search": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.select": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.send": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.setacl": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.setannotation": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.setquota": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.shutdown": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.socket": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.sort": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.starttls": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.status": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.store": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.subscribe": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.thread": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.uid": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.unselect": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.unsubscribe": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.utf8_enabled": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4.xatom": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4_SSL": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.IMAP4_stream": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.Int2AP": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.Internaldate2tuple": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.ParseFlags": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "imaplib.Time2Internaldate": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mimetypes.MimeTypes": [
+        "Windows:True"
+    ],
+    "mimetypes.MimeTypes.read_windows_registry": [
+        "Windows:True"
+    ],
+    "mmap": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_AUTOSYNC": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_CORE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_DODUMP": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_DOFORK": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_DONTDUMP": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_DONTFORK": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_DONTNEED": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_FREE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_FREE_REUSABLE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_FREE_REUSE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_HUGEPAGE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_HWPOISON": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_MERGEABLE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_NOCORE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_NOHUGEPAGE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_NORMAL": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_NOSYNC": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_PROTECT": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_RANDOM": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_REMOVE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_SEQUENTIAL": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_SOFT_OFFLINE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_UNMERGEABLE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MADV_WILLNEED": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MAP_ANON": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MAP_ANONYMOUS": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MAP_DENYWRITE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MAP_EXECUTABLE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MAP_POPULATE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MAP_PRIVATE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MAP_SHARED": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.MAP_STACK": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.closed": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.find": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.flush": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.madvise": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.move": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.read": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.read_byte": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.readline": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.resize": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.rfind": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.seek": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.size": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.tell": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.write": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "mmap.mmap.write_byte": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Array": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.AuthenticationError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Barrier": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.BoundedSemaphore": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.BufferTooShort": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Condition": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Event": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.JoinableQueue": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.JoinableQueue.join": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.JoinableQueue.task_done": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Lock": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Lock.acquire": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Lock.release": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Manager": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Pipe": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Process": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Process.authkey": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Process.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Process.daemon": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Process.exitcode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Process.is_alive": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Process.join": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Process.kill": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Process.name": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Process.pid": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Process.run": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Process.sentinel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Process.start": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Process.terminate": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.ProcessError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Queue": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Queue.cancel_join_thread": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Queue.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Queue.empty": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Queue.full": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Queue.get": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Queue.get_nowait": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Queue.join_thread": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Queue.put": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Queue.put_nowait": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Queue.qsize": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.RLock": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.RLock.acquire": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.RLock.release": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Semaphore": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.SimpleQueue": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.SimpleQueue.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.SimpleQueue.empty": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.SimpleQueue.get": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.SimpleQueue.put": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.TimeoutError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.Value": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.active_children": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.cpu_count": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.current_process": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.freeze_support": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.get_all_start_methods": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.get_context": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.get_logger": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.get_start_method": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.log_to_stderr": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.parent_process": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.set_executable": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "multiprocessing.set_start_method": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nis": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nis.cat": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nis.error": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nis.get_default_domain": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nis.maps": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nis.match": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.article": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.body": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.date": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.description": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.descriptions": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.getcapabilities": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.getwelcome": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.group": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.head": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.help": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.ihave": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.last": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.list": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.login": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.newgroups": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.newnews": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.next": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.nntp_implementation": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.nntp_version": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.over": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.post": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.quit": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.set_debuglevel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.slave": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.starttls": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.stat": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.xhdr": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP.xover": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTPDataError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTPError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTPError.response": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTPPermanentError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTPProtocolError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTPReplyError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTPTemporaryError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.NNTP_SSL": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "nntplib.decode_header": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.CLD_CONTINUED": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.CLD_DUMPED": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.CLD_EXITED": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.CLD_KILLED": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.CLD_STOPPED": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.CLD_TRAPPED": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EFD_CLOEXEC": [
+        "Linux:2.6.27"
+    ],
+    "os.EFD_NONBLOCK": [
+        "Linux:2.6.27"
+    ],
+    "os.EFD_SEMAPHORE": [
+        "Linux:2.6.30"
+    ],
+    "os.EX_CANTCREAT": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EX_CONFIG": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EX_DATAERR": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EX_IOERR": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EX_NOHOST": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EX_NOINPUT": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EX_NOPERM": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EX_NOTFOUND": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EX_NOUSER": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EX_OK": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.EX_OSERR": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EX_OSFILE": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EX_PROTOCOL": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EX_SOFTWARE": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EX_TEMPFAIL": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EX_UNAVAILABLE": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.EX_USAGE": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.F_LOCK": [
+        "Unix:True"
+    ],
+    "os.F_TEST": [
+        "Unix:True"
+    ],
+    "os.F_TLOCK": [
+        "Unix:True"
+    ],
+    "os.F_ULOCK": [
+        "Unix:True"
+    ],
+    "os.MFD_ALLOW_SEALING": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_CLOEXEC": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_HUGETLB": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_HUGE_16GB": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_HUGE_16MB": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_HUGE_1GB": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_HUGE_1MB": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_HUGE_256MB": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_HUGE_2GB": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_HUGE_2MB": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_HUGE_32MB": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_HUGE_512KB": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_HUGE_512MB": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_HUGE_64KB": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_HUGE_8MB": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_HUGE_MASK": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.MFD_HUGE_SHIFT": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.POSIX_FADV_DONTNEED": [
+        "Unix:True"
+    ],
+    "os.POSIX_FADV_NOREUSE": [
+        "Unix:True"
+    ],
+    "os.POSIX_FADV_NORMAL": [
+        "Unix:True"
+    ],
+    "os.POSIX_FADV_RANDOM": [
+        "Unix:True"
+    ],
+    "os.POSIX_FADV_SEQUENTIAL": [
+        "Unix:True"
+    ],
+    "os.POSIX_FADV_WILLNEED": [
+        "Unix:True"
+    ],
+    "os.PRIO_PGRP": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.PRIO_PROCESS": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.PRIO_USER": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.P_ALL": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.P_DETACH": [
+        "Windows:True"
+    ],
+    "os.P_NOWAIT": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.P_NOWAITO": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.P_OVERLAY": [
+        "Windows:True"
+    ],
+    "os.P_PGID": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.P_PID": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.P_PIDFD": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.P_WAIT": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.RWF_APPEND": [
+        "Linux:4.16"
+    ],
+    "os.RWF_DSYNC": [
+        "Linux:4.7"
+    ],
+    "os.RWF_HIPRI": [
+        "Linux:4.6"
+    ],
+    "os.RWF_NOWAIT": [
+        "Linux:4.14"
+    ],
+    "os.RWF_SYNC": [
+        "Linux:4.7"
+    ],
+    "os.SEEK_DATA": [
+        "Linux:3.1",
+        "macOS:True",
+        "Unix:True"
+    ],
+    "os.SEEK_HOLE": [
+        "Linux:3.1",
+        "macOS:True",
+        "Unix:True"
+    ],
+    "os.SF_MNOWAIT": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.SF_NOCACHE": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.SF_NODISKIO": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.SF_SYNC": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.WCONTINUED": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.WCOREDUMP": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.WEXITED": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.WEXITSTATUS": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.WIFCONTINUED": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.WIFEXITED": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.WIFSIGNALED": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.WIFSTOPPED": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.WNOHANG": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.WNOWAIT": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.WSTOPPED": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.WSTOPSIG": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.WTERMSIG": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.WUNTRACED": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.add_dll_directory": [
+        "Windows:True"
+    ],
+    "os.chflags": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.chown": [
+        "Unix:True"
+    ],
+    "os.chroot": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.confstr": [
+        "Unix:True"
+    ],
+    "os.confstr_names": [
+        "Unix:True"
+    ],
+    "os.copy_file_range": [
+        "Linux:4.5 with glibc >= 2.27"
+    ],
+    "os.ctermid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.dup": [
+        "WASI:False"
+    ],
+    "os.dup2": [
+        "WASI:False"
+    ],
+    "os.eventfd": [
+        "Linux:2.6.27 with glibc >= 2.8"
+    ],
+    "os.eventfd_read": [
+        "Linux:2.6.27"
+    ],
+    "os.eventfd_write": [
+        "Linux:2.6.27"
+    ],
+    "os.execl": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.execle": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.execlp": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.execlpe": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.execv": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.execve": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.execvp": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.execvpe": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.fchdir": [
+        "Unix:True"
+    ],
+    "os.fchmod": [
+        "Unix:True"
+    ],
+    "os.fchown": [
+        "Unix:True"
+    ],
+    "os.fdatasync": [
+        "Unix:True"
+    ],
+    "os.fork": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.forkpty": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.fpathconf": [
+        "Unix:True"
+    ],
+    "os.fstatvfs": [
+        "Unix:True"
+    ],
+    "os.fsync": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.ftruncate": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.fwalk": [
+        "Unix:True"
+    ],
+    "os.get_blocking": [
+        "Unix:True"
+    ],
+    "os.get_handle_inheritable": [
+        "Windows:True"
+    ],
+    "os.get_terminal_size": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.getegid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.getenv": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.getenvb": [
+        "Unix:True"
+    ],
+    "os.geteuid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.getgid": [
+        "Unix:True"
+    ],
+    "os.getgrouplist": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.getgroups": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.getloadavg": [
+        "Unix:True"
+    ],
+    "os.getlogin": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.getpgid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.getpgrp": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.getppid": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.getpriority": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.getrandom": [
+        "Linux:3.17"
+    ],
+    "os.getresgid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.getresuid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.getsid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.getuid": [
+        "Unix:True"
+    ],
+    "os.initgroups": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.kill": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.killpg": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.lchflags": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.lchmod": [
+        "Unix:True"
+    ],
+    "os.lchown": [
+        "Unix:True"
+    ],
+    "os.link": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False"
+    ],
+    "os.lockf": [
+        "Unix:True"
+    ],
+    "os.login_tty": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.memfd_create": [
+        "Linux:3.17 with glibc >= 2.27"
+    ],
+    "os.mkfifo": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.mknod": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.nice": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.openpty": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.pathconf": [
+        "Unix:True"
+    ],
+    "os.pathconf_names": [
+        "Unix:True"
+    ],
+    "os.pidfd_open": [
+        "Linux:5.3"
+    ],
+    "os.pipe": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.pipe2": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.plock": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.popen": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.posix_fadvise": [
+        "Unix:True"
+    ],
+    "os.posix_fallocate": [
+        "Unix:True",
+        "Emscripten:False"
+    ],
+    "os.posix_spawn": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.posix_spawnp": [
+        "POSIX:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.pread": [
+        "Unix:True"
+    ],
+    "os.preadv": [
+        "Linux:2.6.30",
+        "FreeBSD:6.0",
+        "OpenBSD:2.7",
+        "AIX:7.1"
+    ],
+    "os.pwrite": [
+        "Unix:True"
+    ],
+    "os.pwritev": [
+        "Linux:2.6.30",
+        "FreeBSD:6.0",
+        "OpenBSD:2.7",
+        "AIX:7.1"
+    ],
+    "os.readlink": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.readv": [
+        "Unix:True"
+    ],
+    "os.register_at_fork": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.sendfile": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.set_blocking": [
+        "Unix:True"
+    ],
+    "os.set_handle_inheritable": [
+        "Windows:True"
+    ],
+    "os.setegid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.seteuid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.setgid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.setgroups": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.setpgid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.setpgrp": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.setpriority": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.setregid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.setresgid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.setresuid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.setreuid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.setsid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.setuid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.spawnl": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.spawnle": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.spawnlp": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.spawnlpe": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.spawnv": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.spawnve": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.spawnvp": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.spawnvpe": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.splice": [
+        "Linux:2.6.17 with glibc >= 2.5"
+    ],
+    "os.startfile": [
+        "Windows:True"
+    ],
+    "os.statvfs": [
+        "Unix:True"
+    ],
+    "os.symlink": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.sync": [
+        "Unix:True"
+    ],
+    "os.sysconf": [
+        "Unix:True"
+    ],
+    "os.sysconf_names": [
+        "Unix:True"
+    ],
+    "os.system": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.tcgetpgrp": [
+        "Unix:True",
+        "WASI:False"
+    ],
+    "os.tcsetpgrp": [
+        "Unix:True",
+        "WASI:False"
+    ],
+    "os.times": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.truncate": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.ttyname": [
+        "Unix:True"
+    ],
+    "os.uname": [
+        "Unix:True"
+    ],
+    "os.wait": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.wait3": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.wait4": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.waitid": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.waitpid": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.waitstatus_to_exitcode": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "os.writev": [
+        "Unix:True"
+    ],
+    "os.path.commonpath": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.path.relpath": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.path.samefile": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.path.sameopenfile": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "os.path.samestat": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "pipes.Template": [
+        "Unix:True",
+        "VxWorks:False"
+    ],
+    "pipes.Template.append": [
+        "Unix:True",
+        "VxWorks:False"
+    ],
+    "pipes.Template.clone": [
+        "Unix:True",
+        "VxWorks:False"
+    ],
+    "pipes.Template.copy": [
+        "Unix:True",
+        "VxWorks:False"
+    ],
+    "pipes.Template.debug": [
+        "Unix:True",
+        "VxWorks:False"
+    ],
+    "pipes.Template.open": [
+        "Unix:True",
+        "VxWorks:False"
+    ],
+    "pipes.Template.prepend": [
+        "Unix:True",
+        "VxWorks:False"
+    ],
+    "pipes.Template.reset": [
+        "Unix:True",
+        "VxWorks:False"
+    ],
+    "pipes": [
+        "Unix:True",
+        "VxWorks:False"
+    ],
+    "poplib": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.apop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.capa": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.dele": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.getwelcome": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.list": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.noop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.pass_": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.quit": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.retr": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.rpop": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.rset": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.set_debuglevel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.stat": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.stls": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.top": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.uidl": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.user": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3.utf8": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.POP3_SSL": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "poplib.error_proto": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "pwd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "pwd.getpwall": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "pwd.getpwnam": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "pwd.getpwuid": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_AS": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_CORE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_CPU": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_DATA": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_FSIZE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_KQUEUES": [
+        "FreeBSD:11",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_MEMLOCK": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_MSGQUEUE": [
+        "Linux:2.6.8",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_NICE": [
+        "Linux:2.6.12",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_NOFILE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_NPROC": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_NPTS": [
+        "FreeBSD:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_OFILE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_RSS": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_RTPRIO": [
+        "Linux:2.6.12",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_RTTIME": [
+        "Linux:2.6.25",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_SBSIZE": [
+        "FreeBSD:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_SIGPENDING": [
+        "Linux:2.6.8",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_STACK": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_SWAP": [
+        "FreeBSD:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIMIT_VMEM": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RLIM_INFINITY": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RUSAGE_BOTH": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RUSAGE_CHILDREN": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RUSAGE_SELF": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.RUSAGE_THREAD": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.error": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.getpagesize": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.getrlimit": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.getrusage": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.prlimit": [
+        "Linux:2.6.36 with glibc >= 2.13",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "resource.setrlimit": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.PIPE_BUF": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.devpoll": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.devpoll.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.devpoll.closed": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.devpoll.fileno": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.devpoll.modify": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.devpoll.poll": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.devpoll.register": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.devpoll.unregister": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.epoll": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.epoll.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.epoll.closed": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.epoll.fileno": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.epoll.fromfd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.epoll.modify": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.epoll.poll": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.epoll.register": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.epoll.unregister": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.error": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.kevent": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.kevent.data": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.kevent.fflags": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.kevent.filter": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.kevent.flags": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.kevent.ident": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.kevent.udata": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.kqueue": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.kqueue.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.kqueue.closed": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.kqueue.control": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.kqueue.fileno": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.kqueue.fromfd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.poll": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.poll.modify": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.poll.poll": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.poll.register": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.poll.unregister": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "select.select": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.BaseSelector": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.BaseSelector.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.BaseSelector.get_key": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.BaseSelector.get_map": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.BaseSelector.modify": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.BaseSelector.register": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.BaseSelector.select": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.BaseSelector.unregister": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.DefaultSelector": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.DevpollSelector": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.DevpollSelector.fileno": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.EVENT_READ": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.EVENT_WRITE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.EpollSelector": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.EpollSelector.fileno": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.KqueueSelector": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.KqueueSelector.fileno": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.PollSelector": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.SelectSelector": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.SelectorKey": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.SelectorKey.data": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.SelectorKey.events": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.SelectorKey.fd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "selectors.SelectorKey.fileobj": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "shutil.chown": [
+        "Unix:True"
+    ],
+    "shutil.disk_usage": [
+        "Unix:True",
+        "Windows:True"
+    ],
+    "signal.CTRL_BREAK_EVENT": [
+        "Windows:True"
+    ],
+    "signal.CTRL_C_EVENT": [
+        "Windows:True"
+    ],
+    "signal.SIGALRM": [
+        "Unix:True"
+    ],
+    "signal.SIGBREAK": [
+        "Windows:True"
+    ],
+    "signal.SIGBUS": [
+        "Unix:True"
+    ],
+    "signal.SIGCHLD": [
+        "Unix:True"
+    ],
+    "signal.SIGCONT": [
+        "Unix:True"
+    ],
+    "signal.SIGHUP": [
+        "Unix:True"
+    ],
+    "signal.SIGKILL": [
+        "Unix:True"
+    ],
+    "signal.SIGPIPE": [
+        "Unix:True"
+    ],
+    "signal.SIGSTKFLT": [
+        "Linux:True"
+    ],
+    "signal.SIGUSR1": [
+        "Unix:True"
+    ],
+    "signal.SIGUSR2": [
+        "Unix:True"
+    ],
+    "signal.SIGWINCH": [
+        "Unix:True"
+    ],
+    "signal.Sigmasks": [
+        "Unix:True"
+    ],
+    "signal.alarm": [
+        "Unix:True"
+    ],
+    "signal.getitimer": [
+        "Unix:True"
+    ],
+    "signal.pause": [
+        "Unix:True"
+    ],
+    "signal.pidfd_send_signal": [
+        "Linux:5.1"
+    ],
+    "signal.pthread_kill": [
+        "Unix:True"
+    ],
+    "signal.pthread_sigmask": [
+        "Unix:True"
+    ],
+    "signal.setitimer": [
+        "Unix:True"
+    ],
+    "signal.siginterrupt": [
+        "Unix:True"
+    ],
+    "signal.sigpending": [
+        "Unix:True"
+    ],
+    "signal.sigtimedwait": [
+        "Unix:True"
+    ],
+    "signal.sigwait": [
+        "Unix:True"
+    ],
+    "signal.sigwaitinfo": [
+        "Unix:True"
+    ],
+    "smtpd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.DebuggingServer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.PureProxy": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.SMTPChannel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.SMTPChannel.addr": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.SMTPChannel.conn": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.SMTPChannel.fqdn": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.SMTPChannel.mailfrom": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.SMTPChannel.peer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.SMTPChannel.rcpttos": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.SMTPChannel.received_data": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.SMTPChannel.received_lines": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.SMTPChannel.seen_greeting": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.SMTPChannel.smtp_server": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.SMTPChannel.smtp_state": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.SMTPServer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.SMTPServer.channel_class": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtpd.SMTPServer.process_message": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.LMTP": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP.auth": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP.connect": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP.docmd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP.ehlo": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP.ehlo_or_helo_if_needed": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP.has_extn": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP.helo": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP.login": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP.quit": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP.send_message": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP.sendmail": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP.set_debuglevel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP.starttls": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP.verify": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTPAuthenticationError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTPConnectError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTPDataError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTPException": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTPHeloError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTPNotSupportedError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTPRecipientsRefused": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTPResponseException": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTPSenderRefused": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTPServerDisconnected": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "smtplib.SMTP_SSL": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.AF_ALG": [
+        "Linux:2.6.38",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.AF_CAN": [
+        "Linux:2.6.25",
+        "NetBSD:8",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.AF_INET": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.AF_INET6": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.AF_LINK": [
+        "BSD:True",
+        "macOS:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.AF_PACKET": [
+        "Linux:2.2",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.AF_QIPCRTR": [
+        "Linux:4.7",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.AF_RDS": [
+        "Linux:2.6.30",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.AF_UNIX": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.AF_VSOCK": [
+        "Linux:4.8",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.BDADDR_ANY": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.BDADDR_LOCAL": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.CAN_BCM": [
+        "Linux:2.6.25",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.CAN_ISOTP": [
+        "Linux:2.6.25",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.CAN_J1939": [
+        "Linux:5.4",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.CAN_RAW_FD_FRAMES": [
+        "Linux:3.6",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.CAN_RAW_JOIN_FILTERS": [
+        "Linux:4.1",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.CMSG_LEN": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.CMSG_SPACE": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.HCI_DATA_DIR": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.HCI_FILTER": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.HCI_TIME_STAMP": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.IOCTL_VM_SOCKETS_GET_LOCAL_CID": [
+        "Linux:4.8",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.LOCAL_CREDS": [
+        "FreeBSD:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.LOCAL_CREDS_PERSISTENT": [
+        "FreeBSD:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.PF_CAN": [
+        "Linux:2.6.25",
+        "NetBSD:8",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.PF_PACKET": [
+        "Linux:2.2",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.PF_RDS": [
+        "Linux:2.6.30",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SCM_CREDS2": [
+        "FreeBSD:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SIO_KEEPALIVE_VALS": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SIO_LOOPBACK_FAST_PATH": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SIO_RCVALL": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SOCK_CLOEXEC": [
+        "Linux:2.6.27",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SOCK_DGRAM": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SOCK_NONBLOCK": [
+        "Linux:2.6.27",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SOCK_RAW": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SOCK_RDM": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SOCK_SEQPACKET": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SOCK_STREAM": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SOL_ALG": [
+        "Linux:2.6.38",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SOL_RDS": [
+        "Linux:2.6.30",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SOMAXCONN": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SO_INCOMING_CPU": [
+        "Linux:3.9",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.SocketType": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.create_connection": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.create_server": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.error": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.fromfd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.fromshare": [
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.gaierror": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.getaddrinfo": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.getdefaulttimeout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.getfqdn": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.gethostbyaddr": [
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.gethostbyname": [
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.gethostbyname_ex": [
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.gethostname": [
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.getnameinfo": [
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.getprotobyname": [
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.getservbyname": [
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.getservbyport": [
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.has_dualstack_ipv6": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.has_ipv6": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.herror": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.htonl": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.htons": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.if_indextoname": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.if_nameindex": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.if_nametoindex": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.inet_aton": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.inet_ntoa": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.inet_ntop": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.inet_pton": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.ntohl": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.ntohs": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.recv_fds": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.send_fds": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.setdefaulttimeout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.sethostname": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.accept": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.bind": [
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.socket.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.connect": [
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.socket.connect_ex": [
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.socket.detach": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.dup": [
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.socket.family": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.fileno": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.get_inheritable": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.getblocking": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.getpeername": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.getsockname": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.getsockopt": [
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.socket.gettimeout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.ioctl": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.listen": [
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.socket.makefile": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.proto": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.recv": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.recv_into": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.recvfrom": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.recvfrom_into": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.recvmsg": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.recvmsg_into": [
+        "Unix:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.send": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.sendall": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.sendfile": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.sendmsg": [
+        "Unix:True",
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.socket.sendmsg_afalg": [
+        "Linux:2.6.38",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.sendto": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.set_inheritable": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.setblocking": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.setsockopt": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.settimeout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.share": [
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socket.shutdown": [
+        "WASI:False",
+        "Emscripten:False"
+    ],
+    "socket.socket.type": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.socketpair": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socket.timeout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseRequestHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseRequestHandler.client_address": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseRequestHandler.finish": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseRequestHandler.handle": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseRequestHandler.request": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseRequestHandler.server": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseRequestHandler.setup": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.RequestHandlerClass": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.address_family": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.allow_reuse_address": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.fileno": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.finish_request": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.get_request": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.handle_error": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.handle_request": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.handle_timeout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.process_request": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.request_queue_size": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.serve_forever": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.server_activate": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.server_address": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.server_bind": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.server_close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.service_actions": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.shutdown": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.socket": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.socket_type": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.timeout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.BaseServer.verify_request": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.DatagramRequestHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.DatagramRequestHandler.rfile": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.DatagramRequestHandler.wfile": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.ForkingMixIn": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.ForkingTCPServer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.ForkingUDPServer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.StreamRequestHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.TCPServer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.ThreadingMixIn": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.ThreadingMixIn.block_on_close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.ThreadingMixIn.daemon_threads": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.ThreadingTCPServer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.ThreadingUDPServer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.UDPServer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.UnixDatagramServer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "socketserver.UnixStreamServer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "spwd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "spwd.getspall": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "spwd.getspnam": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.ALERT_DESCRIPTION_HANDSHAKE_FAILURE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.ALERT_DESCRIPTION_INTERNAL_ERROR": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.AlertDescription": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.CERT_NONE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.CERT_OPTIONAL": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.CERT_REQUIRED": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.CHANNEL_BINDING_TYPES": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.CertificateError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.DER_cert_to_PEM_cert": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.HAS_ALPN": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.HAS_ECDH": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.HAS_NEVER_CHECK_COMMON_NAME": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.HAS_NPN": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.HAS_SNI": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.HAS_SSLv2": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.HAS_SSLv3": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.HAS_TLSv1": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.HAS_TLSv1_1": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.HAS_TLSv1_2": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.HAS_TLSv1_3": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.MemoryBIO": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.MemoryBIO.eof": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.MemoryBIO.pending": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.MemoryBIO.read": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.MemoryBIO.write": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.MemoryBIO.write_eof": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OPENSSL_VERSION": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OPENSSL_VERSION_INFO": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OPENSSL_VERSION_NUMBER": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OP_ALL": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OP_CIPHER_SERVER_PREFERENCE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OP_ENABLE_MIDDLEBOX_COMPAT": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OP_IGNORE_UNEXPECTED_EOF": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OP_NO_COMPRESSION": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OP_NO_RENEGOTIATION": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OP_NO_SSLv2": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OP_NO_SSLv3": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OP_NO_TICKET": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OP_NO_TLSv1": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OP_NO_TLSv1_1": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OP_NO_TLSv1_2": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OP_NO_TLSv1_3": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OP_SINGLE_DH_USE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.OP_SINGLE_ECDH_USE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.Options": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.PEM_cert_to_DER_cert": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.PROTOCOL_SSLv2": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.PROTOCOL_SSLv23": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.PROTOCOL_SSLv3": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.PROTOCOL_TLS": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.PROTOCOL_TLS_CLIENT": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.PROTOCOL_TLS_SERVER": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.PROTOCOL_TLSv1": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.PROTOCOL_TLSv1_1": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.PROTOCOL_TLSv1_2": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.Purpose.CLIENT_AUTH": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.Purpose.SERVER_AUTH": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.RAND_add": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.RAND_bytes": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.RAND_pseudo_bytes": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.RAND_status": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLCertVerificationError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLCertVerificationError.verify_code": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLCertVerificationError.verify_message": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.cert_store_stats": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.check_hostname": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.get_ca_certs": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.get_ciphers": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.hostname_checks_common_name": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.keylog_filename": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.load_cert_chain": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.load_default_certs": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.load_dh_params": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.load_verify_locations": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.maximum_version": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.minimum_version": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.num_tickets": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.options": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.post_handshake_auth": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.protocol": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.security_level": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.session_stats": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.set_alpn_protocols": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.set_ciphers": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.set_default_verify_paths": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.set_ecdh_curve": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.set_npn_protocols": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.set_servername_callback": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.sni_callback": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.sslobject_class": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.sslsocket_class": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.verify_flags": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.verify_mode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.wrap_bio": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLContext.wrap_socket": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLEOFError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLError.library": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLError.reason": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLErrorNumber": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLObject": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSession": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSession.has_ticket": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSession.id": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSession.ticket_lifetime_hint": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSession.time": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSession.timeout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.cipher": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.compression": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.context": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.do_handshake": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.get_channel_binding": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.getpeercert": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.pending": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.read": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.selected_alpn_protocol": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.selected_npn_protocol": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.server_hostname": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.server_side": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.session": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.session_reused": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.shared_ciphers": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.unwrap": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.verify_client_post_handshake": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.version": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSocket.write": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLSyscallError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLWantReadError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLWantWriteError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.SSLZeroReturnError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.TLSVersion": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.TLSVersion.MAXIMUM_SUPPORTED": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.TLSVersion.MINIMUM_SUPPORTED": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.TLSVersion.SSLv3": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.TLSVersion.TLSv1": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.TLSVersion.TLSv1_1": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.TLSVersion.TLSv1_2": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.TLSVersion.TLSv1_3": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.VERIFY_ALLOW_PROXY_CERTS": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.VERIFY_CRL_CHECK_CHAIN": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.VERIFY_CRL_CHECK_LEAF": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.VERIFY_DEFAULT": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.VERIFY_X509_PARTIAL_CHAIN": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.VERIFY_X509_STRICT": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.VERIFY_X509_TRUSTED_FIRST": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.VerifyFlags": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.VerifyMode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.cert_time_to_seconds": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.create_default_context": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.enum_certificates": [
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.enum_crls": [
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.get_default_verify_paths": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.get_server_certificate": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.match_hostname": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "ssl.wrap_socket": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.ABOVE_NORMAL_PRIORITY_CLASS": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.BELOW_NORMAL_PRIORITY_CLASS": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CREATE_BREAKAWAY_FROM_JOB": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CREATE_DEFAULT_ERROR_MODE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CREATE_NEW_CONSOLE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CREATE_NEW_PROCESS_GROUP": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CREATE_NO_WINDOW": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CalledProcessError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CalledProcessError.cmd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CalledProcessError.output": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CalledProcessError.returncode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CalledProcessError.stderr": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CalledProcessError.stdout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CompletedProcess": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CompletedProcess.args": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CompletedProcess.check_returncode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CompletedProcess.returncode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CompletedProcess.stderr": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.CompletedProcess.stdout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.DETACHED_PROCESS": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.DEVNULL": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.HIGH_PRIORITY_CLASS": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.IDLE_PRIORITY_CLASS": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.NORMAL_PRIORITY_CLASS": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.PIPE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.Popen": [
+        "POSIX:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.Popen.args": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.Popen.communicate": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.Popen.kill": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.Popen.pid": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.Popen.poll": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.Popen.returncode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.Popen.send_signal": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.Popen.stderr": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.Popen.stdin": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.Popen.stdout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.Popen.terminate": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.Popen.wait": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.REALTIME_PRIORITY_CLASS": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.STARTF_USESHOWWINDOW": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.STARTF_USESTDHANDLES": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.STARTUPINFO": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.STARTUPINFO.dwFlags": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.STARTUPINFO.hStdError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.STARTUPINFO.hStdInput": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.STARTUPINFO.hStdOutput": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.STARTUPINFO.lpAttributeList": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.STARTUPINFO.wShowWindow": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.STDOUT": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.STD_ERROR_HANDLE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.STD_INPUT_HANDLE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.STD_OUTPUT_HANDLE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.SW_HIDE": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.SubprocessError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.TimeoutExpired": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.TimeoutExpired.cmd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.TimeoutExpired.output": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.TimeoutExpired.stderr": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.TimeoutExpired.stdout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.TimeoutExpired.timeout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.call": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.check_call": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.check_output": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.getoutput": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.getstatusoutput": [
+        "Unix:True",
+        "Windows:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "subprocess.run": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "sys._emscripten_info": [
+        "Emscripten:True"
+    ],
+    "sys._enablelegacywindowsfsencoding": [
+        "Windows:True"
+    ],
+    "sys.dllhandle": [
+        "Windows:True"
+    ],
+    "sys.getandroidapilevel": [
+        "Android:True"
+    ],
+    "sys.getdlopenflags": [
+        "Unix:True"
+    ],
+    "sys.getwindowsversion": [
+        "Windows:True"
+    ],
+    "sys.setdlopenflags": [
+        "Unix:True"
+    ],
+    "sys.winver": [
+        "Windows:True"
+    ],
+    "syslog": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "syslog.closelog": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "syslog.openlog": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "syslog.setlogmask": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "syslog.syslog": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.expect": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.fileno": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.get_socket": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.interact": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.msg": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.mt_interact": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.open": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.read_all": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.read_eager": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.read_lazy": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.read_sb_data": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.read_some": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.read_until": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.read_very_eager": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.read_very_lazy": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.set_debuglevel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.set_option_negotiation_callback": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "telnetlib.Telnet.write": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Barrier": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Barrier.abort": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Barrier.broken": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Barrier.n_waiting": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Barrier.parties": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Barrier.reset": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Barrier.wait": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.BoundedSemaphore": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.BrokenBarrierError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Condition": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Condition.acquire": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Condition.notify": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Condition.notify_all": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Condition.release": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Condition.wait": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Condition.wait_for": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Event": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Event.clear": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Event.is_set": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Event.set": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Event.wait": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Lock": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Lock.acquire": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Lock.locked": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Lock.release": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.RLock": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.RLock.acquire": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.RLock.release": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Semaphore": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Semaphore.acquire": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Semaphore.release": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.TIMEOUT_MAX": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Thread": [
+        "Windows:True",
+        "FreeBSD:True",
+        "Linux:True",
+        "macOS:True",
+        "OpenBSD:True",
+        "NetBSD:True",
+        "AIX:True",
+        "DragonFlyBSD:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Thread.daemon": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Thread.getName": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Thread.ident": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Thread.isDaemon": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Thread.is_alive": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Thread.join": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Thread.name": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Thread.native_id": [
+        "Windows:True",
+        "FreeBSD:True",
+        "Linux:True",
+        "macOS:True",
+        "OpenBSD:True",
+        "NetBSD:True",
+        "AIX:True",
+        "DragonFlyBSD:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Thread.run": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Thread.setDaemon": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Thread.setName": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Thread.start": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Timer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.Timer.cancel": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.__excepthook__": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.active_count": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.current_thread": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.enumerate": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.excepthook": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.get_ident": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.get_native_id": [
+        "Windows:True",
+        "FreeBSD:True",
+        "Linux:True",
+        "macOS:True",
+        "OpenBSD:True",
+        "NetBSD:True",
+        "AIX:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.getprofile": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.gettrace": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.local": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.main_thread": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.setprofile": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.settrace": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "threading.stack_size": [
+        "Windows:True",
+        "pthreads:True",
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "time.CLOCK_BOOTTIME": [
+        "Linux:2.6.39"
+    ],
+    "time.CLOCK_HIGHRES": [
+        "Solaris:True"
+    ],
+    "time.CLOCK_MONOTONIC": [
+        "Unix:True"
+    ],
+    "time.CLOCK_MONOTONIC_RAW": [
+        "Linux:2.6.28",
+        "macOS:10.12"
+    ],
+    "time.CLOCK_PROCESS_CPUTIME_ID": [
+        "Unix:True"
+    ],
+    "time.CLOCK_PROF": [
+        "FreeBSD:True",
+        "NetBSD:7",
+        "OpenBSD:True"
+    ],
+    "time.CLOCK_REALTIME": [
+        "Unix:True"
+    ],
+    "time.CLOCK_TAI": [
+        "Linux:True"
+    ],
+    "time.CLOCK_THREAD_CPUTIME_ID": [
+        "Unix:True"
+    ],
+    "time.CLOCK_UPTIME": [
+        "FreeBSD:True",
+        "OpenBSD:5.5"
+    ],
+    "time.CLOCK_UPTIME_RAW": [
+        "macOS:10.12"
+    ],
+    "time.clock_getres": [
+        "Unix:True"
+    ],
+    "time.clock_gettime": [
+        "Unix:True"
+    ],
+    "time.clock_gettime_ns": [
+        "Unix:True"
+    ],
+    "time.clock_settime": [
+        "Unix:True"
+    ],
+    "time.clock_settime_ns": [
+        "Unix:True"
+    ],
+    "time.pthread_getcpuclockid": [
+        "Unix:True"
+    ],
+    "time.thread_time": [
+        "Linux:True",
+        "Unix:True",
+        "Windows:True"
+    ],
+    "time.tzset": [
+        "Unix:True"
+    ],
+    "urllib.request": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.AbstractBasicAuthHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.AbstractBasicAuthHandler.http_error_auth_reqed": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.AbstractDigestAuthHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.AbstractDigestAuthHandler.http_error_auth_reqed": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.BaseHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.BaseHandler.add_parent": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.BaseHandler.close": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.BaseHandler.default_open": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.BaseHandler.http_error_default": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.BaseHandler.parent": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.BaseHandler.unknown_open": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.CacheFTPHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.CacheFTPHandler.setMaxConns": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.CacheFTPHandler.setTimeout": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.DataHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.DataHandler.data_open": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.FTPHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.FTPHandler.ftp_open": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.FancyURLopener": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.FancyURLopener.prompt_user_passwd": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.FileHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.FileHandler.file_open": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPBasicAuthHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPBasicAuthHandler.http_error_401": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPCookieProcessor": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPCookieProcessor.cookiejar": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPDefaultErrorHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPDigestAuthHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPDigestAuthHandler.http_error_401": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPErrorProcessor": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPErrorProcessor.http_response": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPErrorProcessor.https_response": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPHandler.http_open": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPPasswordMgr": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPPasswordMgr.add_password": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPPasswordMgr.find_user_password": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPPasswordMgrWithDefaultRealm": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPPasswordMgrWithPriorAuth": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPPasswordMgrWithPriorAuth.add_password": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPPasswordMgrWithPriorAuth.find_user_password": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPPasswordMgrWithPriorAuth.is_authenticated": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPPasswordMgrWithPriorAuth.update_authenticated": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPRedirectHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPRedirectHandler.http_error_301": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPRedirectHandler.http_error_302": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPRedirectHandler.http_error_303": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPRedirectHandler.http_error_307": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPRedirectHandler.http_error_308": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPRedirectHandler.redirect_request": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPSHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.HTTPSHandler.https_open": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.OpenerDirector": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.OpenerDirector.add_handler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.OpenerDirector.error": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.OpenerDirector.open": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.ProxyBasicAuthHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.ProxyBasicAuthHandler.http_error_407": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.ProxyDigestAuthHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.ProxyDigestAuthHandler.http_error_407": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.ProxyHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.add_header": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.add_unredirected_header": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.data": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.full_url": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.get_full_url": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.get_header": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.get_method": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.has_header": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.header_items": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.host": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.method": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.origin_req_host": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.remove_header": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.selector": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.set_proxy": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.type": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.Request.unverifiable": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.URLopener": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.URLopener.open": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.URLopener.open_unknown": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.URLopener.retrieve": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.URLopener.version": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.UnknownHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.UnknownHandler.unknown_open": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.build_opener": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.getproxies": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.install_opener": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.pathname2url": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.url2pathname": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.urlcleanup": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.urlopen": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "urllib.request.urlretrieve": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "venv": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "venv.EnvBuilder": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "venv.EnvBuilder.create": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "venv.EnvBuilder.create_configuration": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "venv.EnvBuilder.ensure_directories": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "venv.EnvBuilder.install_scripts": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "venv.EnvBuilder.post_setup": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "venv.EnvBuilder.setup_python": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "venv.EnvBuilder.setup_scripts": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "venv.EnvBuilder.upgrade_dependencies": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "venv.create": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "webbrowser": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "webbrowser.Error": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "webbrowser.controller.open": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "webbrowser.controller.open_new": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "webbrowser.controller.open_new_tab": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "webbrowser.get": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "webbrowser.name": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "webbrowser.open": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "webbrowser.open_new": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "webbrowser.open_new_tab": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "webbrowser.register": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.Binary": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.Binary.data": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.Binary.decode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.Binary.encode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.DateTime": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.DateTime.decode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.DateTime.encode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.Fault": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.Fault.faultCode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.Fault.faultString": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.MultiCall": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.ProtocolError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.ProtocolError.errcode": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.ProtocolError.errmsg": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.ProtocolError.headers": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.ProtocolError.url": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.ServerProxy": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.ServerProxy.system.listMethods": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.ServerProxy.system.methodHelp": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.ServerProxy.system.methodSignature": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.dumps": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.client.loads": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.CGIXMLRPCRequestHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.CGIXMLRPCRequestHandler.handle_request": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.CGIXMLRPCRequestHandler.register_function": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.CGIXMLRPCRequestHandler.register_instance": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.CGIXMLRPCRequestHandler.register_introspection_functions": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.CGIXMLRPCRequestHandler.register_multicall_functions": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.DocCGIXMLRPCRequestHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.DocCGIXMLRPCRequestHandler.set_server_documentation": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.DocCGIXMLRPCRequestHandler.set_server_name": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.DocCGIXMLRPCRequestHandler.set_server_title": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.DocXMLRPCRequestHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.DocXMLRPCServer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.DocXMLRPCServer.set_server_documentation": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.DocXMLRPCServer.set_server_name": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.DocXMLRPCServer.set_server_title": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.SimpleXMLRPCRequestHandler": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.SimpleXMLRPCRequestHandler.rpc_paths": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.SimpleXMLRPCServer": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.SimpleXMLRPCServer.register_function": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.SimpleXMLRPCServer.register_instance": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.SimpleXMLRPCServer.register_introspection_functions": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "xmlrpc.server.SimpleXMLRPCServer.register_multicall_functions": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "zoneinfo": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "zoneinfo.InvalidTZPathWarning": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "zoneinfo.TZPATH": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "zoneinfo.ZoneInfo": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "zoneinfo.ZoneInfo.clear_cache": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "zoneinfo.ZoneInfo.from_file": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "zoneinfo.ZoneInfo.key": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "zoneinfo.ZoneInfo.no_cache": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "zoneinfo.ZoneInfoNotFoundError": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "zoneinfo.available_timezones": [
+        "Emscripten:False",
+        "WASI:False"
+    ],
+    "zoneinfo.reset_tzpath": [
+        "Emscripten:False",
+        "WASI:False"
+    ]
+}

@@ -2,7 +2,7 @@ from os import path
 from setuptools import setup, find_packages
 from codecs import open
 
-NAME = "psae"
+NAME = "psaspotter"
 
 with open(
     path.join(path.abspath(path.dirname(__file__)), "README.md"), encoding="utf-8"
@@ -11,10 +11,10 @@ with open(
 
 setup(
     name=NAME,
-    version="1.0.2",
+    version="0.0.4",
     license="MIT",
     author="Ricardo Job",
-    url="https://github.com/ricardojob/psae",
+    url="https://github.com/ricardojob/psaspotter",
     description="A tool for extracting of Platform-Specific APIs",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -42,7 +42,8 @@ setup(
         "jsonschema ~= 4.21.0",
     ],
     zip_safe=True,
-    entry_points={"console_scripts": [f"{NAME}={NAME}.main:main"]},
+    # entry_points={"console_scripts": [f"{NAME}={NAME}.main:main"]},
+    entry_points={"console_scripts": [f"{NAME}={NAME}.main:main", f"dosa={NAME}.batch:batch"]},
 )
 
 # [project.urls]
@@ -63,4 +64,4 @@ setup(
 # python3 -m twine upload --repository testpypi dist/*
 
 
-# python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps psae-ricardojob
+# python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps psaspotter-ricardojob

@@ -1,32 +1,39 @@
-[![Tests](https://github.com/ricardojob/psae/actions/workflows/tests.yaml/badge.svg)](https://github.com/ricardojob/psae/actions/workflows/tests.yaml)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/psae)](https://pypi.org/project/psae/)
+[![Tests](https://github.com/ricardojob/PSASpotter/actions/workflows/tests.yaml/badge.svg)](https://github.com/ricardojob/PSASpotter/actions/workflows/tests.yaml)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/psaspotter)](https://pypi.org/project/psaspotter/)
 
-# PSAE
+<!-- ![Maven](https://github.com/VariantSync/SyncStudy/actions/workflows/maven.yml/badge.svg) -->
+<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7025599.svg)](https://doi.org/10.5281/zenodo.7025599)
+[![Documentation](https://img.shields.io/badge/Documentation-read%20here-blue)][documentation]
+[![Requirements](https://img.shields.io/badge/System%20Requirements-read%20here-blue)](INSTALL.md)
+[![Install](https://img.shields.io/badge/Installation%20Instructions-read%20here-blue)](INSTALL.md)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue)](LICENSE) -->
+
+# PSASpotter
 
 An automated tool for extracting Platform-Specific API from Git repositories written in Python. 
-The `psae` (**P**latform-**S**pecific **A**PI **E**xtract) is primarily designed to be used as a command-line tool. 
-With `psae`, you can easily extract information about the Platform-Specific APIs and their usages from the Git repository or directory (only python files are analyzed).
+The `psaspotter` (**P**latform-**S**pecific **A**PI Spotter) is primarily designed to be used as a command-line tool. 
+With `psaspotter`, you can easily extract information about the Platform-Specific APIs and their usages from the Git repository or directory (only python files are analyzed).
 The set of Platform-Specific APIs are saved in a given CSV file.
 
 ## Install
 
-The easiest way to install `psae` is to install from Pypi
+The easiest way to install `psaspotter` is to install from Pypi
 
 ```
-pip install psae
+pip install psaspotter
 ```
 
 Alternatively, you can install from `test environment`
 ```
-pip install --index-url https://test.pypi.org/simple/ --no-deps psae
+pip install --index-url https://test.pypi.org/simple/ --no-deps psaspotter
 ```
 
 You may wish to use this tool in a virtual environment. You can use the following commands.
 
 ```
-virtualenv psae_venv
-source psae_venv/bin/activate
-pip install psae
+virtualenv psaspotter_venv
+source psaspotter_venv/bin/activate
+pip install psaspotter
 ```
 
 ## Quick examples
@@ -38,27 +45,27 @@ For this, the parameters `-n` and `-c` can be added to inform the name (`my/loca
 This information will be available in the output file.
 
 ```bash
-psae repository_local -o output.csv -n my/local --commit da39a3ee5e6b4b0d3255bfef95601890afd80709 
+psaspotter repository_local -o output.csv -n my/local --commit da39a3ee5e6b4b0d3255bfef95601890afd80709 
 ```
 
 Note that the repository does not have to be already cloned, the tool also can fetch it. 
-For example, the GitHub repository `https://github.com/ricardojob/psae` will be fetched, saved under the `data/psae` directory.
+For example, the GitHub repository `https://github.com/ricardojob/PSASpotter` will be fetched, saved under the `data/PSASpotter` directory.
 Note that, by default all projects are cloned to the `data` directory.
 
 ```bash
-psae https://github.com/ricardojob/psae -o output.csv
+psaspotter https://github.com/ricardojob/PSASpotter -o output.csv
 ```
 
 ## Usage
 
-After installation, the `psae` command-line tool should be available in your shell. 
-Otherwise, please replace `psae` by `python -m psae`. 
+After installation, the `psaspotter` command-line tool should be available in your shell. 
+Otherwise, please replace `psaspotter` by `python -m psaspotter`. 
 The explanations in the following stays valid in both cases.
 
-You can use `psae` with the following arguments:
+You can use `psaspotter` with the following arguments:
 
 ```
-Usage: psae [OPTIONS] REPOSITORY
+Usage: psaspotter [OPTIONS] REPOSITORY
 
   Extract the usage of Platform-Specific APIs from a single Git repository
   `REPOSITORY`. The Git repository can be local or remote. In the latter case,
@@ -66,7 +73,7 @@ Usage: psae [OPTIONS] REPOSITORY
   Specific APIs will be written in the CSV file given to `-o`, or in the
   standard output if not specified.
 
-  Example of usage: psae myRepository -n myRepositoryName -o output.csv
+  Example of usage: psaspotter myRepository -n myRepositoryName -o output.csv
 
 Options:
   -o, --output FILE           The output CSV file where the usage of Platform-
@@ -100,7 +107,7 @@ The CSV file given to `-o` (or that will be written to the standard output by de
 
 ## License
 
-Distributed under [MIT License](https://github.com/ricardojob/psae/blob/main/LICENSE.txt).
+Distributed under [MIT License](https://github.com/ricardojob/PSASpotter/blob/main/LICENSE.txt).
 
 ## Acknowledgements
 
