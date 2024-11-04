@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Job"
+  given-names: "Ricardo"
+  orcid: "https://orcid.org/0000-0001-8237-3860"
+- family-names: "Hora"
+  given-names: "Andre"
+  orcid: "https://orcid.org/0000-0003-4900-1330"
+title: "PSASpotter: A Tool to Detect the Usages of Platform-Specific APIs"
+version: 1.0.0
+doi: 10.5281/zenodo.14018574
+date-released: 2024-11-01
+url: "https://github.com/ricardojob/PSASpotter"
