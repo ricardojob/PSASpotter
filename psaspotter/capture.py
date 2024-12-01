@@ -126,7 +126,8 @@ class CheckVisitor(ast.NodeVisitor):
     def get_parent(self, node):
         call_name = ""
         parent = node
-        while(not isinstance(parent, ast.Name) and not isinstance(parent, NoneType)):
+        # while(not isinstance(parent, ast.Name) and not isinstance(parent, NoneType)):
+        while(not isinstance(parent, ast.Name) and not isinstance(parent, type(None))):
             if "" == parent or isinstance(parent, str) or type(parent) == str:
                 break
             if isinstance(parent, (bytes, bytearray, int, float, complex)):
