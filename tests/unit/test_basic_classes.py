@@ -1,7 +1,6 @@
 import unittest
 
 from psaspotter.extract import ExtractPlatformSpecificDir
-from psaspotter.capture import Call
 from psaspotter.projects import Project
 
 class TestCallForFunctions(unittest.TestCase):
