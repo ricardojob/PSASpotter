@@ -1,0 +1,6 @@
+line;module;package;platform;url_github;count_usages
+213;sys;platform;win32;https://github.com/ytdl-org/youtube-dl/blob/213d1d91bfc4a00fefc72fa2730555d51060b42d/test/test_utils.py#L213;2
+903;sys;platform;win32;https://github.com/numpy/numpy/blob/2ef217d279d13afa2399efee864b9f11f4096aa7/numpy/lib/tests/test_format.py#L903;2
+7;sys;platform;win32;https://github.com/scrapy/scrapy/blob/96033ce5a7f857942e3c6d488c8aab5b4aa03295/tests/CrawlerProcess/asyncio_enabled_reactor_same_loop.py#L7;1
+6;sys;platform;win32;https://github.com/scrapy/scrapy/blob/96033ce5a7f857942e3c6d488c8aab5b4aa03295/tests/CrawlerProcess/asyncio_enabled_reactor_different_loop.py#L6;1
+54;platform;platform;;https://github.com/deepfakes/faceswap/blob/216ef387636eb7b84819c1b77d9a2f631ed97ab5/tests/lib/sysinfo_test.py#L54;4

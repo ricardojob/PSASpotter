@@ -4,7 +4,6 @@ psaenv/
 psaenv/*
 dist/*
 *__pycache__/*
-*.csv*
 *.tar.*
 .vscode
 test.py
