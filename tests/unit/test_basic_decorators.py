@@ -4,12 +4,9 @@ import ast
 from psaspotter.capture import CheckVisitor, Usage, Call,  read_apis
 
 class TestCallIf(unittest.TestCase):
-
-    
     
     def setUp(self):
         self.os_apis = read_apis()
-        
     
     def test_if_compare(self):
         code = """

@@ -40,7 +40,7 @@ def read_by_records(source: str) -> CallRecordGenerator:
             # filename: str
             # url: str
             # call = Call(record[0], record[1], int(record[2]), record[3], record[4], record[5], bool(record[6]), record[7], record[8])
-            call = Call("name","hash",int(record[2]), record[3], record[4], '', False, "filename", "github.com")
+            call = Call("name","hash",int(record[2]), record[3], record[4], '', False, "filename", "github.com", "high")
             # print(f"{record[10]} -> {record[10].lower().capitalize()} {'true'==record[10].lower().capitalize()} = {record}")
             # yield CallRecord(call, record[8], int(record[9]), record[10].lower().capitalize())
             # project_name,project_hash,line,module,call,API,is_test,filename,url,risk,handle,conditional-statement,exception-handling,decorator,native-function,guard-clauses,design
@@ -50,7 +50,7 @@ class TestCallIf(unittest.TestCase):
 
     def setUp(self):
         self.os_apis  = read_apis()
-        self.filename = 'tests/unit/calls.csv'
+        self.filename = 'tests/files/calls.csv'
         # self.filename = 'tests/unit/calls2.csv'
      
     def test_if_two_compare(self):
