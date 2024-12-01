@@ -11,7 +11,7 @@ with open(
 
 setup(
     name=NAME,
-    version="0.0.4",
+    version="0.0.6",
     license="MIT",
     author="Ricardo Job",
     url="https://github.com/ricardojob/psaspotter",
