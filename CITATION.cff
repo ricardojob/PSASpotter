@@ -7,8 +7,8 @@ authors:
 - family-names: "Hora"
   given-names: "Andre"
   orcid: "https://orcid.org/0000-0003-4900-1330"
-title: "PSASpotter: A Tool to Detect the Usages of Platform-Specific APIs"
+title: "PSASpotter: A Tool to Detect the Usage of Platform-Specific APIs in Python"
 version: 1.0.0
-doi: 10.5281/zenodo.14018574
+doi: 10.5281/zenodo.14029218
 date-released: 2024-11-01
 url: "https://github.com/ricardojob/PSASpotter"
