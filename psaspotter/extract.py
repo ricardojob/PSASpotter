@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 def read_apis():
     import json
-    file = open('psae/apis-os.json')
+    file = open('psaspotter/apis-all.json')
     return json.load(file)
  
 class ExtractPlatformSpecificDir:
@@ -41,7 +41,20 @@ class ExtractPlatformSpecificDir:
                 )
                 # raise
         return self.calls_apis
-
+    def get_availability(self, module, call):
+        import json
+        import re
+        availability = dict()
+        with open("psaspotter/availability.json") as file:
+            availability = json.load(file)
+        api = f"^{module}.*{call}$"
+        res = [val for key, val in availability.items() if re.search(api, key)]
+        if not res:
+            res = availability.get(module)
+            return ",".join(res)
+        else:
+            return ",".join(res[0])
+        
     def __map_to_call(self, filename, c):
         c.filename = filename # _replace(filename=filename) 
         c.is_test = 'test' in filename # verify filename
@@ -49,17 +62,33 @@ class ExtractPlatformSpecificDir:
         c.project_hash = self.project.project_hash
         c.url = self.__build_url(c)
         
+        # call = []
+        # call.append(c.project_name)
+        # call.append(c.project_hash)
+        # call.append(c.line)
+        # call.append(c.module)
+        # call.append(c.call_name)
+        # # call.append(c.call_name_long)
+        # call.append(c.is_test) # verify filename
+        # call.append(c.filename)
+        # call.append(c.url)
+        # return call
+        # self.call_headear = ['project_name','project_commit', 'api_name', 'api_availability', 'usage_filename', 'usage_line', 'usage_github_link' ,'defensive_code']
         call = []
         call.append(c.project_name)
         call.append(c.project_hash)
-        call.append(c.line)
-        call.append(c.module)
-        call.append(c.call_name)
-        # call.append(c.call_name_long)
-        call.append(c.is_test) # verify filename
+        call.append(f'{c.module}.{c.call_name}')
+        call.append(self.get_availability(c.module, c.call_name))
         call.append(c.filename)
+        call.append(c.line)
         call.append(c.url)
-        return call
+        call.append("low"==c.risk)
+        return call        
+        # call.append(c.module)
+        # call.append(c.call_name)
+        # # call.append(c.call_name_long)
+        # call.append(c.is_test) # verify filename
+
         
     def __build_url(self, c:Call):
         return f'https://github.com/{c.project_name}/blob/{c.project_hash}{c.filename}#L{c.line}'  
@@ -104,7 +133,8 @@ class Report(ABC):
 class ReportAPI(Report):
     def __init__(self, output):
         super().__init__(output)
-        self.call_headear = ['project_name','project_commit', 'line', 'module', 'call', 'is_test' ,'filename', 'url', 'risk']
+        # self.call_headear = ['project_name','project_commit', 'line', 'module', 'call', 'is_test' ,'filename', 'url', 'risk']
+        self.call_headear = ['project_name','project_commit', 'api_name', 'api_availability', 'usage_filename', 'usage_line', 'usage_github_link' ,'defensive_code']
     
     def write(self, content):
         parent = os.path.dirname(self.output)

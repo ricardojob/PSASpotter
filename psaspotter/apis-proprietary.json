@@ -1,0 +1,19 @@
+{
+    "_thread": [
+        "get_native_id"
+    ],
+    "crypt": [],
+    "os": [
+        "preadv",
+        "pwritev"
+    ],
+    "pipes": [],
+    "threading": [
+        "Thread",
+        "native_id",
+        "get_native_id"
+    ],
+    "time": [
+        "CLOCK_HIGHRES"
+    ]
+}

@@ -349,10 +349,11 @@ class CheckVisitor(ast.NodeVisitor):
         self.debug(f'visit_Compare begin: {node}')
         # for compare in node.comparators:
         #     self.capture_bool(compare)
-        self.capture_bool(node)
+        # self.capture_bool(node)
         self.container['compare'] = "/cp"
         anterior = self.container.get('nested','')
         self.container['nested'] = f"{anterior}/cp"
+        self.capture_bool(node) 
         self.generic_visit(node)
         self.container['compare'] = ""
         self.container['nested'] = f"{anterior}"
@@ -448,6 +449,7 @@ class CheckVisitor(ast.NodeVisitor):
             context = self.container.get('context','')
             conditional = self.container.get('conditional','')
             decorator = self.container.get('decorator','')
+            print(f"usage: {self.usage}, {conditional != ''}, {decorator != ''}")
             self.debug(f"capture_bool:add_usages:begin {self.container}")  
             self.container['current'] = self.container.get('nested','') #caputar o statement atual
             if(context!="yes" and (conditional !="" or decorator!="")):
@@ -810,7 +812,7 @@ def all_files(dir, extension='.py'):
 
 def read_apis():
     import json
-    with open('psae/apis-os.json', 'r') as file:
+    with open('psaspotter/apis-all.json', 'r') as file:
         data = json.load(file)
     return data
     # import json

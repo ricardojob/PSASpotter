@@ -1,0 +1,35 @@
+{
+    "_thread": [
+        "get_native_id"
+    ],
+    "errno": [
+        "ENOTCAPABLE"
+    ],
+    "os": [
+        "preadv",
+        "pwritev"
+    ],
+    "resource": [
+        "RLIMIT_KQUEUES",
+        "RLIMIT_NPTS",
+        "RLIMIT_SBSIZE",
+        "RLIMIT_SWAP"
+    ],
+    "socket": [
+        "AF_CAN",
+        "AF_LINK",
+        "LOCAL_CREDS",
+        "LOCAL_CREDS_PERSISTENT",
+        "PF_CAN",
+        "SCM_CREDS2"
+    ],
+    "threading": [
+        "Thread",
+        "native_id",
+        "get_native_id"
+    ],
+    "time": [
+        "CLOCK_PROF",
+        "CLOCK_UPTIME"
+    ]
+}

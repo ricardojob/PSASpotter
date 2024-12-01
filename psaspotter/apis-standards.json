@@ -1,0 +1,14 @@
+{
+    "_thread": [
+        "stack_size"
+    ],
+    "os": [
+        "posix_spawnp"
+    ],
+    "subprocess": [
+        "Popen"
+    ],
+    "threading": [
+        "stack_size"
+    ]
+}

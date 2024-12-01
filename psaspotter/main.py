@@ -38,7 +38,7 @@ CONTEXT_SETTINGS = {"help_option_names": ["-h", "--help"]}
     '--platforms',
     '-p',
     help="The Platform-specific API group to figure out.", 
-    type=click.Choice(['all', 'OS'], case_sensitive=True), is_flag=False, flag_value="Flag", default="all"
+    type=click.Choice(['all', 'main', 'proprietary', 'unix-like','standards', 'webassembly', 'mobile'], case_sensitive=True), is_flag=False, flag_value="Flag", default="all"
 )
 @click.option(
     "--filter",
@@ -66,26 +66,27 @@ def main(
     or in the standard output if not specified.
 
     Example of usage:
-    psae myRepository -n myRepositoryName -o output.csv
+    psaspotter myRepository -n myRepositoryName -o output.csv
     """
     load_apis = ''
     if(filter):
         load_apis = filter
     else:
         if(platforms):
-           if platforms == 'all':
-                load_apis = 'psae/apis-all.json'
-           if platforms == 'OS':
-                load_apis = 'psae/apis-os.json'
+            load_apis = f'psaspotter/apis-{platforms}.json'
+        #    if platforms == 'all':
+        #         load_apis = 'psaspotter/apis-all.json'
+        #    if platforms == 'main':
+        #         load_apis = 'psaspotter/apis-main.json'
     logger.info(f'load: {load_apis}')
     project = Project.build(repository, repository_name, commit, load_apis)
     logger.info(project)
     extract = ExtractPlatformSpecificDir(project)
     apis = extract.touch()
-    logger.info(f"Collected: {len(apis)} OS-Specific APIs.")
+    logger.info(f"Collected: {len(apis)} Platform-Specific APIs.")
     report = Report.build(output)
     report.write(apis) 
-
+    logger.info(f"Hash: {project.project_hash}")
 if __name__ == "__main__":
     main()
     

@@ -12,7 +12,7 @@ class Project:
     project_hash: str
     project_url_remote: str
     directory: str
-    platform_apis_filename: str = 'psae/apis-all.json'
+    platform_apis_filename: str = 'psaspotter/apis-all.json'
     
     def read_apis(self):
         import json
@@ -24,7 +24,7 @@ class Project:
         # clone the repository if it does not exist
         try:
             if not os.path.exists(repository): #remote
-                return ProjectRemote(load_apis).clone(repository)
+                return ProjectRemote(load_apis).clone(repository, commit)
             else: #local
                 return ProjectLocal(load_apis, repository, project_name, commit)
         except (Exception) as exception:
@@ -39,7 +39,7 @@ class ProjectRemote(Project):
     def __init__(self, load_apis, directory: str="data", project_name: str="project_name", project_hash: str = "project_hash"):
         super().__init__(project_name, project_hash, project_url_remote="https://github.com/", directory=directory, platform_apis_filename=load_apis)
         
-    def clone(self, repository):
+    def clone(self, repository, commit):
         if "https://github.com/" in repository:
             self.project_url_remote = repository
         else:
@@ -48,7 +48,13 @@ class ProjectRemote(Project):
         dir = f'{self.directory}/{self.project_url_remote.replace("https://github.com/", "")}'
         logger.info(f'Cloning started in {dir}.')
         repo = Repo(self.project_url_remote)
-        local = repo.clone_at(dir)
+        
+        if commit:
+            local = repo.clone_at_commit(dir, commit)
+        else:
+            local = repo.clone_at(dir)
+            # local = repo.clone_at(dir)    
+        logger.info(f'Cloning in {local}.')
         self.project_name = repo.repo_name()
         self.project_hash = local.commit_head()
         self.directory = local.path()

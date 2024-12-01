@@ -13,7 +13,7 @@ import click
 from psaspotter.capture import CheckVisitor, Call
 from psaspotter.projects import ProjectRemote
 
-logging.basicConfig(level=logging.INFO, filename='log.txt')
+logging.basicConfig(level=logging.INFO, filename='lig.txt')
 logger = logging.getLogger(__name__)
 
 @click.command(context_settings={"help_option_names": ["-h", "--help"]})
@@ -36,7 +36,7 @@ logger = logging.getLogger(__name__)
     '--platforms',
     '-p',
     help="The Platform-specific API group to figure out.", 
-    type=click.Choice(['all', 'OS'], case_sensitive=True), is_flag=False, flag_value="Flag", default="all"
+    type=click.Choice(['all', 'main'], case_sensitive=True), is_flag=False, flag_value="Flag", default="all"
 )
 @click.option(
     "--filter",
@@ -58,7 +58,7 @@ def batch(
     or in the standard output if not specified.
 
     Example of usage:
-    python psae/batch.py --from projects.txt -o output
+    python psaspotter/batch.py --from projects.txt -o output
     """
     load_apis = ''
     if(filter):
@@ -66,9 +66,9 @@ def batch(
     else:
         if(platforms):
             if platforms == 'all':
-                    load_apis = 'psae/apis-all.json'
-            if platforms == 'OS':
-                    load_apis = 'psae/apis-os.json'
+                    load_apis = 'psaspotter/apis-all.json'
+            if platforms == 'main':
+                    load_apis = 'psaspotter/apis-main.json'
     logger.debug(f'load: {load_apis}')
     calls_headear =   ['project_name','project_hash', 'line', 'module', 'call', 'is_test' ,'filename', 'url', 'risk', 'availability']
     # usages_headear =  ['project_name','project_hash', 'line', 'api', 'platforms', 'is_test' ,'filename', 'url']
@@ -83,7 +83,7 @@ def batch(
     
     def get_availability(module, call):
         availability = dict()
-        with open("psae/availability.json") as file:
+        with open("psaspotter/availability.json") as file:
             availability = json.load(file)
         api = f"^{module}.*{call}$"
         res = [val for key, val in availability.items() if re.search(api, key)]
@@ -204,6 +204,7 @@ def batch(
                 write.writerow(self.header)
                 write.writerows(content)
     
+    from_ = "/Users/job/Documents/dev/doutorado/study/psae/projects.txt"
     with open(from_, 'r', encoding='utf-8') as file:
         projects = file.readlines()
          
@@ -300,7 +301,7 @@ def batch(
             sufix = f'{output_directory}/%s/{project_name.strip().replace("/","_")}.csv'
             ReportToCSV(sufix % "platforms", calls_headear).write(calls_apis)
             ReportToCSV(sufix % "metadata", metadata_header).write(metadata)
-            # ReportToCSV(sufix % "usages", usages_headear).write(usages_apis)
+            ReportToCSV(sufix % "usages", usages_headear).write(usages_apis)
             
             time_elapsed = datetime.datetime.now() - start_time     
             logger.info(f"{project_name.strip()}, {'Time elapsed (hh:mm:ss.ms) {}'.format(time_elapsed)}")
