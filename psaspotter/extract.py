@@ -49,8 +49,12 @@ class ExtractPlatformSpecificDir:
         import json
         import re
         availability = dict()
-        with open("psaspotter/availability.json") as file:
-            availability = json.load(file)
+        # with open("psaspotter/availability.json") as file:
+        #     availability = json.load(file)
+        from importlib.resources import files
+        json_text = files("psaspotter").joinpath("availability.json").read_text()
+        availability = json.loads(json_text)
+    
         api = f"^{module}.*{call}$"
         res = [val for key, val in availability.items() if re.search(api, key)]
         if not res:

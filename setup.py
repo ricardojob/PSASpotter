@@ -11,7 +11,7 @@ with open(
 
 setup(
     name=NAME,
-    version="0.0.7",
+    version="0.0.10",
     license="MIT",
     author="Ricardo Job",
     url="https://github.com/ricardojob/psaspotter",
@@ -50,6 +50,8 @@ setup(
     zip_safe=True,
     # entry_points={"console_scripts": [f"{NAME}={NAME}.main:main"]},
     entry_points={"console_scripts": [f"{NAME}={NAME}.main:main", f"dosa={NAME}.batch:batch"]},
+    package_data={NAME: ["**/*.json"]},
+
 )
 
 # [project.urls]
