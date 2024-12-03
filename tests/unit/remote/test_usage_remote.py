@@ -1,6 +1,7 @@
 import unittest
 import ast
 import requests
+import os
 
 from psaspotter.capture import CheckVisitor, Usage,  read_apis
 
@@ -35,7 +36,7 @@ class TestUsageIf(unittest.TestCase):
 
     def setUp(self):
         self.os_apis  = read_apis()
-        self.filename = 'tests/files/usages.csv'
+        self.filename = f'tests{os.sep}files{os.sep}usages.csv'
         # self.filename = 'tests/unit/usages-count.csv'
         # self.filename = 'tests/unit/usages-count-all.csv'
         # self.filename = 'tests/unit/usages-count-problems.csv'

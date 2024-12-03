@@ -1,6 +1,7 @@
 import unittest
 import ast
 import requests
+import os
 
 from psaspotter.capture import CheckVisitor, Call,  read_apis
 
@@ -50,7 +51,7 @@ class TestCallIf(unittest.TestCase):
 
     def setUp(self):
         self.os_apis  = read_apis()
-        self.filename = 'tests/files/calls.csv'
+        self.filename = f'tests{os.sep}files{os.sep}calls.csv'
         # self.filename = 'tests/unit/calls2.csv'
      
     def test_if_two_compare(self):

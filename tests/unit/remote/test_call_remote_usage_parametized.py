@@ -1,6 +1,7 @@
 import unittest
 import ast
 import requests
+import os
 
 from psaspotter.capture import CheckVisitor, Usage,  read_apis
 
@@ -78,7 +79,7 @@ def pretty_to_raw_generator(pretty:str):
         return raw
     
 if __name__ == '__main__':
-    for record in read_by_records('tests/files/usages-count-all.csv'):
+    for record in read_by_records(f'tests{os.sep}files{os.sep}usages-count-all.csv'):
         if (find_problems_generator(record.url_pretty)):
             print(f'skipped: {record.url_pretty}')
             continue

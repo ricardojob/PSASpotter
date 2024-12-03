@@ -15,10 +15,14 @@ class Project:
     platform_apis_filename: str = 'psaspotter/apis-all.json'
     
     def read_apis(self):
+        # import json
+        # # file = open('psae/apis-os.json')
+        # file = open(self.platform_apis_filename)
+        # return json.load(file)
+        from importlib.resources import files
         import json
-        # file = open('psae/apis-os.json')
-        file = open(self.platform_apis_filename)
-        return json.load(file)
+        json_text = files("psaspotter").joinpath("apis-all.json").read_text()
+        return  json.loads(json_text)
     
     def build(repository, project_name, commit, load_apis):
         # clone the repository if it does not exist

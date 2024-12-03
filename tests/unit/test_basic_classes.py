@@ -1,4 +1,5 @@
 import unittest
+import os
 
 from psaspotter.extract import ExtractPlatformSpecificDir
 from psaspotter.projects import Project
@@ -11,14 +12,14 @@ class TestCallForFunctions(unittest.TestCase):
         self.assertEqual(result_value, expect_value)
     
     def test_length(self):
-        directory = "tests/classes" # only one file
+        directory = f"tests{os.sep}classes" # only one file
         project = Project.build(directory, "repository_name", "commit", "psaspotter/apis-all.json")
         extract = ExtractPlatformSpecificDir(project)
         apis = extract.touch()
         self.assertEqual(14, len(apis))
     
     def test_contains(self):
-        directory = "tests/classes" # only one file
+        directory = f"tests{os.sep}classes" # only one file
         project = Project.build(directory, "name", "hash", "psaspotter/apis-all.json")
         extract = ExtractPlatformSpecificDir(project)
         apis = extract.touch()

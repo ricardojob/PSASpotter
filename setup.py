@@ -11,7 +11,7 @@ with open(
 
 setup(
     name=NAME,
-    version="0.0.6",
+    version="0.0.7",
     license="MIT",
     author="Ricardo Job",
     url="https://github.com/ricardojob/psaspotter",
@@ -40,6 +40,12 @@ setup(
     install_requires=[
         "click ~= 8.1.7",
         "jsonschema ~= 4.21.0",
+        "smmap~=5.0.1",
+        "coverage ~= 6.5.0",
+        "pytest",
+        "pygments",
+        "pydriller",
+        "requests"
     ],
     zip_safe=True,
     # entry_points={"console_scripts": [f"{NAME}={NAME}.main:main"]},
@@ -62,6 +68,7 @@ setup(
 
 # create a token in respository (PyPi or test.PyPi)
 # python3 -m twine upload --repository testpypi dist/*
+# python3 -m twine upload dist/*
 
 
 # python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps psaspotter-ricardojob

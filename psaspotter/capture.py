@@ -812,10 +812,15 @@ def all_files(dir, extension='.py'):
     return files
 
 def read_apis():
+    # import json
+    # with open('psaspotter/apis-all.json', 'r') as file:
+    #     data = json.load(file)
+    # return data
+
+    from importlib.resources import files
     import json
-    with open('psaspotter/apis-all.json', 'r') as file:
-        data = json.load(file)
-    return data
+    json_text = files("psaspotter").joinpath("apis-all.json").read_text()
+    return  json.loads(json_text)
     # import json
     # file = open('psae/apis-os.json')
     # return json.load(file)

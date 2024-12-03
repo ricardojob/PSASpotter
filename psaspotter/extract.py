@@ -10,9 +10,13 @@ from psaspotter.capture import CheckVisitor, Call
 logger = logging.getLogger(__name__)
 
 def read_apis():
+    # import json
+    # file = open('psaspotter/apis-all.json')
+    # return json.load(file)
+    from importlib.resources import files
     import json
-    file = open('psaspotter/apis-all.json')
-    return json.load(file)
+    json_text = files("psaspotter").joinpath("apis-all.json").read_text()
+    return  json.loads(json_text)
  
 class ExtractPlatformSpecificDir:
     def __init__(self, project):
