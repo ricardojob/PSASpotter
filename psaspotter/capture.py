@@ -718,6 +718,9 @@ class CheckVisitor(ast.NodeVisitor):
                     elif (isinstance(l, ast.Starred)):
                         self.debug(f'excepts: tuple: attribute {l.value}')    
                         excepthandler.add(l.value)
+                    elif (isinstance(l, ast.Constant)):
+                        self.debug(f'excepts: tuple: Constant {l.value}')    
+                        excepthandler.add(l.value)
                     else:    
                         self.debug(f'excepts: tuple: {l.id}')
                         excepthandler.add(l.id)
