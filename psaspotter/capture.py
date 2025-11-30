@@ -854,7 +854,8 @@ def github():
     # python_file = 'https://raw.githubusercontent.com/ytdl-org/youtube-dl/213d1d91bfc4a00fefc72fa2730555d51060b42d/test/test_utils.py'
     # python_file = 'https://raw.githubusercontent.com/django/django/2eb1f37260f0e0b71ef3a77eb5522d2bb68d6489/tests/asgi/tests.py'
     # python_file = 'https://raw.githubusercontent.com/django/django/2eb1f37260f0e0b71ef3a77eb5522d2bb68d6489/tests/i18n/test_extraction.py#L70'
-    python_file = 'https://raw.githubusercontent.com/ansible/ansible/a84b3a4e7277084466e43236fa78fc99592c641a/test/support/integration/plugins/modules/timezone.py#L107'
+    # python_file = 'https://raw.githubusercontent.com/ansible/ansible/a84b3a4e7277084466e43236fa78fc99592c641a/test/support/integration/plugins/modules/timezone.py#L107'
+    python_file = 'https://raw.githubusercontent.com/ansible/ansible/c827dc0dabff8850a73de9ca65148a74899767f2/lib/ansible/utils/display.py#L749'
     # https://github.com/ansible/ansible/blob/a84b3a4e7277084466e43236fa78fc99592c641a/test/support/integration/plugins/modules/timezone.py#L107
     try:
         filename = "github"
@@ -863,8 +864,10 @@ def github():
         file_compile = ast.parse(f.content)
         checkVisitor = CheckVisitor(os_apis)
         checkVisitor.visit(file_compile)
-        [print(f'{c.line}; {c.api}; {c.platforms}') for c in checkVisitor.usages]
-        [print(f'name; hash; {c.line}; {c.module}; {c.call_name}; {c.call_name_long}; {filename}') for c in checkVisitor.calls]
+        # print('usages')
+        # [print(f'{c.line}; {c.api}; {c.platforms}-> {c}') for c in checkVisitor.usages]
+        print('calls')
+        [print(f'name; hash; {c.line}; {c.module}; {c.call_name}; {c.call_name_long}; {filename} -> {c.risk}') for c in checkVisitor.calls]
     except SyntaxError as ex:
         print('erro', ex) 
 if __name__ == '__main__':

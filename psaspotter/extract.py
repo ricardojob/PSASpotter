@@ -39,7 +39,13 @@ class ExtractPlatformSpecificDir:
                     self.calls_apis.append(self.__map_to_call(filename, c))
             except SyntaxError as ex:
                 logger.error(
-                    "Could not process python (file=%s)",
+                    "SyntaxError: Could not process python (file=%s)",
+                    str(python_file),
+                    exc_info=True,
+                )
+            except UnicodeDecodeError as ex:
+                logger.error(
+                    "UnicodeDecodeError: Could not process python (file=%s)",
                     str(python_file),
                     exc_info=True,
                 )

@@ -11,7 +11,7 @@ with open(
 
 setup(
     name=NAME,
-    version="0.0.10",
+    version="0.0.12",
     license="MIT",
     author="Ricardo Job",
     url="https://github.com/ricardojob/psaspotter",
@@ -35,7 +35,8 @@ setup(
         "Programming Language :: Python :: 3.11",
     ],
     keywords="platform-specific api detect tool",
-    packages=find_packages(include=[NAME]),
+    # packages=find_packages(include=[NAME]),
+    packages=find_packages(include=[f"{NAME}*", NAME]),
     python_requires="~= 3.8",
     install_requires=[
         "click ~= 8.1.7",
@@ -48,8 +49,8 @@ setup(
         "requests"
     ],
     zip_safe=True,
-    # entry_points={"console_scripts": [f"{NAME}={NAME}.main:main"]},
-    entry_points={"console_scripts": [f"{NAME}={NAME}.main:main", f"dosa={NAME}.batch:batch"]},
+    entry_points={"console_scripts": [f"{NAME}={NAME}.main:main"]},
+    # entry_points={"console_scripts": [f"{NAME}={NAME}.main:main", f"dosa={NAME}.batch:batch"]},
     package_data={NAME: ["**/*.json"]},
 
 )
