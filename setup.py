@@ -35,7 +35,6 @@ setup(
         "Programming Language :: Python :: 3.11",
     ],
     keywords="platform-specific api detect tool",
-    # packages=find_packages(include=[NAME]),
     packages=find_packages(include=[f"{NAME}*", NAME]),
     python_requires="~= 3.8",
     install_requires=[
@@ -50,28 +49,5 @@ setup(
     ],
     zip_safe=True,
     entry_points={"console_scripts": [f"{NAME}={NAME}.main:main"]},
-    # entry_points={"console_scripts": [f"{NAME}={NAME}.main:main", f"dosa={NAME}.batch:batch"]},
     package_data={NAME: ["**/*.json"]},
-
 )
-
-# [project.urls]
-# "Homepage" = "https://github.com/ricardojob/psae"
-# "Bug Tracker" = "https://github.com/ricardojob/psae/issues"
-
-# python3 -m venv psaenv
-# source psaenv/bin/activate
-# pip3 install -r requirements.txt
-
-## build app
-# pip3 install -e .
-# python3 -m pip install --upgrade build
-# python3 -m build
-# python3 -m pip install --upgrade twine
-
-# create a token in respository (PyPi or test.PyPi)
-# python3 -m twine upload --repository testpypi dist/*
-# python3 -m twine upload dist/*
-
-
-# python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps psaspotter-ricardojob

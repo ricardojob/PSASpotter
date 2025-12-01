@@ -10,9 +10,6 @@ from psaspotter.capture import CheckVisitor, Call
 logger = logging.getLogger(__name__)
 
 def read_apis():
-    # import json
-    # file = open('psaspotter/apis-all.json')
-    # return json.load(file)
     from importlib.resources import files
     import json
     json_text = files("psaspotter").joinpath("apis-all.json").read_text()
@@ -26,7 +23,6 @@ class ExtractPlatformSpecificDir:
         self.os_apis = project.read_apis()
         
     def touch(self) -> List[Call]: 
-        # project_dir = "/Users/job/Documents/dev/doutorado/study/study-docs/input/classes"
         for python_file in self.__all_files(self.directory):
             try:
                 if python_file.is_dir(): continue
@@ -55,8 +51,6 @@ class ExtractPlatformSpecificDir:
         import json
         import re
         availability = dict()
-        # with open("psaspotter/availability.json") as file:
-        #     availability = json.load(file)
         from importlib.resources import files
         json_text = files("psaspotter").joinpath("availability.json").read_text()
         availability = json.loads(json_text)
@@ -76,18 +70,6 @@ class ExtractPlatformSpecificDir:
         c.project_hash = self.project.project_hash
         c.url = self.__build_url(c)
         
-        # call = []
-        # call.append(c.project_name)
-        # call.append(c.project_hash)
-        # call.append(c.line)
-        # call.append(c.module)
-        # call.append(c.call_name)
-        # # call.append(c.call_name_long)
-        # call.append(c.is_test) # verify filename
-        # call.append(c.filename)
-        # call.append(c.url)
-        # return call
-        # self.call_headear = ['project_name','project_commit', 'api_name', 'api_availability', 'usage_filename', 'usage_line', 'usage_github_link' ,'defensive_code']
         call = []
         call.append(c.project_name)
         call.append(c.project_hash)
@@ -98,11 +80,6 @@ class ExtractPlatformSpecificDir:
         call.append(c.url)
         call.append("low"==c.risk)
         return call        
-        # call.append(c.module)
-        # call.append(c.call_name)
-        # # call.append(c.call_name_long)
-        # call.append(c.is_test) # verify filename
-
         
     def __build_url(self, c:Call):
         return f'https://github.com/{c.project_name}/blob/{c.project_hash}{c.filename}#L{c.line}'  
@@ -147,7 +124,6 @@ class Report(ABC):
 class ReportAPI(Report):
     def __init__(self, output):
         super().__init__(output)
-        # self.call_headear = ['project_name','project_commit', 'line', 'module', 'call', 'is_test' ,'filename', 'url', 'risk']
         self.call_headear = ['project_name','project_commit', 'api_name', 'api_availability', 'usage_filename', 'usage_line', 'usage_github_link' ,'defensive_code']
     
     def write(self, content):

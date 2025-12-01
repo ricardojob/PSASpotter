@@ -143,17 +143,7 @@ class TestUsageIf(unittest.TestLoader):
         raw_url = self.pretty_to_raw(record.url_pretty)
         code = requests.get(raw_url).content
         return code
-    # def test_set_attr(self):
-        #     usage = Usage(line=331, api='platform.system', platforms={'Windows', ' Darwin'})
-        #     usages = dict(Usage(line=426, api='platform.system', platforms={'Windows'}), 
-        #     Usage(line=488, api='platform.system', platforms={'Windows'}), 
-        #     Usage(line=331, api='platform.system', platforms={'Windows', 'Darwin'}), 
-        #     Usage(line=469, api='platform.system', platforms={'Windows'}), 
-        #     Usage(line=508, api='platform.system', platforms={'Windows'}), 
-        #     Usage(line=527, api='platform.system', platforms={'Windows'}))
-        #     # usages.
-        #     self.assertIn(usage, usages)
-
+    
 if __name__ == '__main__':
     unittest.main()
     
