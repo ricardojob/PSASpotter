@@ -97,6 +97,10 @@ The CSV file given to `-o` (or that will be written to the standard output by de
 - `usage_github_link`: Github link to the filename and line
 - `defensive_code`: Check if the API is used within defensive code
 
+## Tool demonstration
+
+The following video presents a demonstration scenario of the tool: [video] (https://youtu.be/9V7fNl32w0A).
+
 ## License
 
 Distributed under [MIT License](https://github.com/ricardojob/PSASpotter/blob/main/LICENSE.txt).

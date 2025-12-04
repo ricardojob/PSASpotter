@@ -91,21 +91,3 @@ if __name__ == '__main__':
         test = test_generator(record, checkVisitor.usages)
         setattr(TestUsageIf, test_name, test)
     unittest.main()
-
-# from unittest import TestCase
-
-# class TestDemonstrateSubtest(TestCase):
-#     def test_works_as_expected(self):
-#         for record in read_by_records('tests/unit/usages.csv'):
-#             with self.subTest(record):
-#                 if (find_problems_generator(record.url_pretty)):
-#                     print(f'skipped: {record.url_pretty}')
-#                     continue
-#                 code = read_code_generator(record)
-#                 file_compile = ast.parse(code)
-#                 checkVisitor = CheckVisitor(read_apis())
-#                 checkVisitor.visit(file_compile)
-#                 self.assertEqual(record.count, len(checkVisitor.usages), msg=record.url_pretty)
-#                 self.assertIn(record.usage, checkVisitor.usages, msg=record.url_pretty)
-# if __name__ == '__main__':
-#     unittest.main()

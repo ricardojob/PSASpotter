@@ -38,9 +38,6 @@ class TestUsageIf(unittest.TestLoader):
         self.os_apis  = read_apis()
         
         self.filename = f'tests{os.sep}files{os.sep}usages.csv'
-        # self.filename = 'tests/unit/usages-count.csv'
-        # self.filename = 'tests/unit/usages-count-all.csv'
-        # self.filename = 'tests/unit/usages-count-problems.csv'
      
     def test_if_two_compare(self):
         pretty = 'https://github.com/ansible/ansible/blob/a84b3a4e7277084466e43236fa78fc99592c641a/test/support/integration/plugins/modules/timezone.py#L107'
@@ -48,13 +45,6 @@ class TestUsageIf(unittest.TestLoader):
         self.assertEqual(self.pretty_to_raw(pretty), raw)
         
     def test_usages_from_csv(self):
-        # problems = ['https://github.com/certbot/certbot/blob/097af18417020d9108bda4f09685dddac26a0039/certbot/certbot/_internal/tests/main_test.py#L1015',
-        #             'https://github.com/ansible/ansible/blob/666188892ed0833e87803a3e80c58923e4cd6bca/hacking/tests/gen_distribution_version_testcase.py#L95',
-        #             'https://github.com/mitmproxy/mitmproxy/blob/04d9249ab18cd7bd8b54958714d24614f27863b5/test/mitmproxy/proxy/test_mode_servers.py#L143',
-        #             'https://github.com/saltstack/salt/blob/8a1e4c120f03149ebff288c6c989cca69327cd17/tests/support/ext/console.py#L22',
-        #             'https://github.com/deepfakes/faceswap/blob/216ef387636eb7b84819c1b77d9a2f631ed97ab5/tests/lib/sysinfo_test.py#L54' #5 instances
-        #             ]
-
         for record in read_by_records(self.filename):
             if (self.find_problems(record.url_pretty)):
                 print(f'skipped: {record.url_pretty}')
@@ -65,49 +55,10 @@ class TestUsageIf(unittest.TestLoader):
             checkVisitor.visit(file_compile)
             print(f'testing: {record.url_pretty}')
             
-            # if str(record.url_pretty).startswith("https://github.com/deepfakes/faceswap/blob/216ef387636eb7b84819c1b77d9a2f631ed97ab5/tests/lib/sysinfo_test.py"):
-            #     # if platform.system().lower() == "linux":
-            #     continue
-            # if str(record.url_pretty).startswith("https://github.com/numpy/numpy/blob/2ef217d279d13afa2399efee864b9f11f4096aa7/numpy/lib/tests/test_format.py"): 
-            #     # if (sys.platform == 'win32' or sys.platform == 'cygwin'):
-            #     continue
-            # if str(record.url_pretty).startswith("https://github.com/lightning-ai/lightning/blob/fd4697c62c059fc7b9946e84d91625ecb6efdbe5/tests/tests_app/utilities/test_app_commands.py"): 
-            #     # 
-            #     continue
-            # if str(record.url_pretty).startswith("https://github.com/cookiecutter/cookiecutter/blob/cf81d63bf3d82e1739db73bcbed6f1012890e33e/tests/test_prompt.py"): 
-            #     # if 'windows' in platform.platform().lower():
-            #     continue
-            # if str(record.url_pretty).startswith("https://github.com/plotly/dash/blob/37d7c304eda0e513e9c5d502ca4f45df2375bf72/components/dash-table/tests/selenium/conftest.py"): 
-            #     # CMD = Keys.COMMAND if platform.system() == "Darwin" else Keys.CONTROL
-            #     continue
-            # if str(record.url_pretty).startswith("https://github.com/chriskiehl/gooey/blob/be4b11b8f27f500e7326711641755ad44576d408/gooey/tests/test_chooser_results.py"): 
-            #     #  if not osname or osname == os.name:
-            #     continue
-            # if str(record.url_pretty).startswith("https://github.com/sanic-org/sanic/blob/af678010628cd76a57e7a53e114f25d5c00e931a/tests/test_motd.py"): 
-            #     #  assert logs[6][2] == f"platform: {platform.platform()}"
-            #     continue
-            # if str(record.url_pretty).startswith("https://github.com/ray-project/ray/blob/10861d9f2ef19e845186b8925053a11c6812a161/python/ray/tests/test_usage_stats.py"): 
-            #     #  10 != 8 
-            #     continue
-            # if str(record.url_pretty).startswith("https://github.com/ray-project/ray/blob/10861d9f2ef19e845186b8925053a11c6812a161/python/ray/tests/test_tempfile.py"): 
-            #     #  5 != 6
-            #     continue
-            # if str(record.url_pretty).startswith("https://github.com/cool-rr/pysnooper/blob/231969074ec99d4bde6b1a63ccd78e931b4510e7/tests/mini_toolbox/pathlib.py"): 
-            #     #  not found
-            #     continue
-            # if str(record.url_pretty).startswith("https://github.com/ansible/ansible/blob/666188892ed0833e87803a3e80c58923e4cd6bca/test/integration/targets/prepare_http_tests/library/httptester_kinit.py"): 
-            #     #  sysname = os.uname()[0]
-            #     continue
             self.assertEqual(record.count, len(checkVisitor.usages), msg=record.url_pretty)
             self.assertIn(record.usage, checkVisitor.usages, msg=record.url_pretty)
             
     def find_problems(self, url):
-        # problems = ['https://github.com/certbot/certbot/blob/097af18417020d9108bda4f09685dddac26a0039/certbot/certbot/_internal/tests/main_test.py#L1015',
-        #             'https://github.com/ansible/ansible/blob/666188892ed0833e87803a3e80c58923e4cd6bca/hacking/tests/gen_distribution_version_testcase.py#L95',
-        #             'https://github.com/mitmproxy/mitmproxy/blob/04d9249ab18cd7bd8b54958714d24614f27863b5/test/mitmproxy/proxy/test_mode_servers.py#L143',
-        #             'https://github.com/saltstack/salt/blob/8a1e4c120f03149ebff288c6c989cca69327cd17/tests/support/ext/console.py#L22',
-        #             'https://github.com/deepfakes/faceswap/blob/216ef387636eb7b84819c1b77d9a2f631ed97ab5/tests/lib/sysinfo_test.py#L54' #5 instances
-        #             ]
         problems = ['https://github.com/certbot/certbot/blob/097af18417020d9108bda4f09685dddac26a0039/certbot/certbot/_internal/tests/main_test.py',
                     'https://github.com/ansible/ansible/blob/666188892ed0833e87803a3e80c58923e4cd6bca/hacking/tests/gen_distribution_version_testcase.py',
                     'https://github.com/mitmproxy/mitmproxy/blob/04d9249ab18cd7bd8b54958714d24614f27863b5/test/mitmproxy/proxy/test_mode_servers.py',
